@@ -1,11 +1,3 @@
-
-<style>
-.center {
-  text-align: center;
-}
-</style>
-
-
 # OmniGraffle手册
 
 移动对象
@@ -79,86 +71,407 @@ Page.45
 
 层用于组织画布中的对象,每个画布至少必须有一个层,可以按需要添加任意数量的层, OmniGraffile中的层的概念和Photoshop中层的概念是高度相似的,如果你熟悉Photoshop那么在OmniGraffile中使用层是非常顺手的事情. 默认情况,层是隐藏的,可以单击画布预览图旁边的[菱形]图标显示和隐藏层,每个层都有一个预览图显示层中的内容,以及一个标题文本, 标题文本下为四个图标按钮
 
-## Sharing Layers with Multiple Canvases (Pro)
+## 在多个画布之间共享层
 
-You can share a layer between multiple canvases. That way, whenever you change the layer, it affects every canvas that uses that layer.
+可以在多个画布之间共享层. 当你编辑共享层的时候,对共享层的修改将反映在所有使用共享层的画布上.
 
-To share a layer between canvases, select the layer and then:
+要把一个层变为共享层,选择一个层然后:
 
-* Choose **Edit > Layer Settings > Shared Layer**
-* Under the layer’s title, click the **Shared Layer** icon
+* 选择 **Edit > Layer Settings > Shared Layer**
+* 在层标题下单击 **Shared Layer** 图标
 
-When a layer is shared, the title turns orange and an orange tint is added
-to the layer’s preview image.
+当一个层被设置为共享层后, 这个层的标题变为橙色,预览图背景也标变为橙色
 
 ![共享层](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/shared-layers.png)
 
-To create a new shared layer:
+要创建一个新的共享层:
 
-* Choose **New Shared Layer** from the **Action Menu** at the bottom of the canvases sidebar. 
-* Choose **Edit > Layers > New Shared Layer**
+* 从画布边栏的底部 **Action Menu** 选择 **New Shared Layer**. 
+* 选择 **Edit > Layers > New Shared Layer**
 
-After creating (or designating an existing layer as) a new shared layer:
+创建一个新的(或指定一个现有的层为)共享层后:
 
-* Add and edit objects on the layer normally.
-* Any further changes you make to any copy of the layer are also applied to all other copies of it.
+* 正常的在这个层上添加和编辑对象.
+* 在共享层拷贝上的任何修改将反映在所有共享层拷贝上.
 
-Objects on shared layers, the corresponding items in the list sidebar, and shared layer previews in the canvases sidebar all appear in the distinctive shared layer color, to remind you that you could be affecting many canvases if you edit them.
+当你选择共享层上的对象时,共享层对象会以橙色的边框显示,以提醒编辑共享层对象会影响所有使用该共享层的所有画布.
 
-To delete a shared layer, select the shared layer and:
+要删除一个共享层,选择共享层然后:
 
-* Press the Delete key
-* Choose Edit > Delete from the menu Bar
-* Control-click on the shared layer and select Delete Layer in the contextual menu
-* Select Delete Layer from the Action Menu at the bottom of the sidebar
+* 敲击 **Delete** 键
+* 从菜单栏中选择 **Edit > Delete**
+* 按住 **Control** 并单击共享层上的对象,并在上下文菜单中选择 **Delete Layer**
+* 从边栏底部的 **Action menu** 选择 **Delete Layer** 
 
-There is also a Delete [layer name] from All Canvases option that, when chosen, removes that shared layer from every canvas in your project.
 
-## Contents
+还有一个从所有画布中删除[层名称] 的选项,这会删除项目中所有画布上的该共享层.
 
-The Contents portion of the Sidebar offers three different ways to create, view, and edit the objects in your projects: List View, Outline Editor, and Selection Matrix.
+## 内容
+
+边栏的内容部分提供了三种不同的方式来创建,查看,编辑项目中的对象: 列表视图(List View), 大纲编辑器(Outline Editor),选择矩阵(Selection Matrix).
 
 ![内容](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/contents.png)
 
-To switch between the different sections of the Contents sidebar, you can either click on the buttons in the header row for the Contents sidebar, or:
+在CONTENTS边栏的不同视图之间切换,可以单击CONTENTS区顶部的导航按钮行, 或者:
 
-* List View:
-    * Choose **View > Show Contents > List View**
-    * Use the **Option-⌘–2** keyboard shortcut
-* Outline Editor:
-    * Choose View > Show Contents > Outline Editor
-    * Use the Option-⌘–3 keyboard shortcut
-* Selection Matrix:
-    * Choose View > Show Contents > Selection Matrix
-    * Use the Option-⌘–4 keyboard shortcut
+* 列表视图:
+    * 选择 **View > Show Contents > List View**
+    * 使用 the **Option-⌘–2** 键盘快捷键
+* 大纲编辑器:
+    * 选择 **View > Show Contents > Outline Editor**
+    * 使用 the **Option-⌘–3** 键盘快捷键
+* 选择矩阵:
+    * 选择 **View > Show Contents > Selection Matrix**
+    * 使用 the **Option-⌘–4** 键盘快捷键
+
+The layers in your project have like-named sections in the Contents section as well. This makes it easy for you to keep track of different elements of your project.
+
+As you select an object in the Contents section, the Inspectors (see the Inspectors section) change accordingly. This is particularly helpful for when you are in the Selection Matrix and need to tweak the styles of similar objects (for example, changing the font size for all of your labels at once or adding a drop shadow to certain objects).
+
+## 列表视图(List View)
+
+List View shows you every object on every layer of the current canvas, in front to back order.
+
+![列表视图](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/list-view.png)
+
+Within that list, you can drag objects into different ordering or from one layer to another.
+
+In the General preferences, you can choose to display **Object ID Numbers** along with the items in List View, which can be useful for scripting.
+
+![对象标识号](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/list-view.png "列表视图(List View)")
+
+## 大纲编辑器(Outline Editor)
+
+The Outline Editor gives you a quick way to enter lots of data, and an alternate way to look at hierarchical diagrams. The outline shows any shapes you’ve created on the canvas, arranged hierarchically according to the lines that connect them. Likewise, as you enter text into the outline, shapes are automatically created and connected on the canvas with corresponding text.
+
+![大纲编辑器(Outline Editor)](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/outline-editor.png "大纲编辑器(Outline Editor)")
+
+To start working in the outline, just click an existing item, or double-click in an empty area to create a new item. While you work in the Outline Editor, the following keys can be used to create and arrange items:
+
+* **Return** — creates a “peer” of the currently selected item. Peers appear on the same indentation level in the outline, and, if they are beyond the top level, have connections from the same parent object in the diagram.
+* **Tab** — indents the currently selected item, making it a “child” of the item above it in the outline. A connection line is drawn in the diagram from the parent object to the child object.
+* **Shift-Tab** — outdents the currently selected item, making it a peer of what used to be its parent.
+* **Escape (esc)** — switches between selecting an item and editing the item’s text.
+
+**Note:**
+Additional keyboard shortcuts for quickly building outlines can be found in **Help > Keyboard Shortcuts**.
+
+An item can be dragged around the outline view by its handle, the dot or triangle to the left of each item. Dragging an item with children brings its children along for the ride. While you drag an item, a black line shows the location and indentation level at which the item will be dropped when you let go of the mouse button.
+
+A group, table, or subgraph on the canvas is shown as a single item in the outline, surrounded by brackets. Click the arrows on the right side of the item to see the objects inside and edit their text.
+
+![](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/outline-editor-group.png "")
+
+While the Outline Editor is handy for entering lots of information quickly, an outline can’t always perfectly represent the relationships in a complicated diagram. Objects with more than one parent, lines connected to other lines, and circular ancestry (“I’m my own grandpa!”) are all examples of the kinds of things a simple outline can’t properly show. In these cases, the Outline Editor tries its best to be accurate. If your diagram is not strictly tree-like, you probably shouldn’t rely too much on the Outline Editor if what you need is a quick representation of the objects’ relationships.
+
+## The Selection Matrix
+
+The Selection Matrix provides an alternative organization scheme for the objects on the Canvas. Objects in the Selection Matrix are grouped together by kind based on their style properties.
+
+Along the top of the Selection Matrix is a row of buttons that look oddly familiar. No, they’re not the symbols you’d expect to see on a football coach’s chalkboard during halftime, these relate to the styles you can set for the objects on the Canvas.
+
+![选择矩阵](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/selection-matrix-1.png "选择矩阵")
+
+All of these are on by default, and this gives you the finest level of granularity when evaluating your objects. But as you turn one—or all—of them off, you’ll notice that the previews in the Selection Matrix become more compact.
+
+![选择矩阵](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/selection-matrix-2.png "选择矩阵")
+
+Click on a class of objects in the matrix to select them all for manipulation, or select them individually in the main view.
+
+## Using the Canvas
+
+The Canvas is where you create, edit, and move objects around in your project. By default, every OmniGraffle document contains at least one canvas with one layer, and you can add as many Canvases as you’d like.
+
+Canvases give you the flexibility to separate your work into distinct areas in the same document. Not sure if you like the style of the diagram you’ve been working on? Duplicate the canvas and apply a new set of styles so you can see which one you like best.
 
 
+![using_canvas_1](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/using-canvas-1.png "使用画布") 
+
+For those times when all you want is to work on the Canvas and not be distracted by the sidebars, remember that **Option-⌘–1** hides the Sidebar on the left, and **Shift-⌘-I** hides the Inspectors sidebar on the right.
+
+![使用画布](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/using-canvas-2.png "使用画布")
 
 
+## Using Diagram Styles
+
+Diagram Styles are OmniGraffle documents that define an appearance which you can apply to an outline or a diagram. There are infinite ways to represent the same data; a diagram style helps you indicate just how you want the data to be represented.
+
+Diagram styles come in handy when you’re creating an outline with OmniGraffle’s Outline Editor (**View > Show Contents > Outline Editor**, or **Option-⌘–3**). The Outline Editor is a great way to quickly enter information and set up relationships for the objects in a diagram. To quickly style all of the elements, choose **Format > Choose Diagram Style** to select and apply a style set to your diagram.
 
 
+![使用示意图](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/using-diagram-styles-1.png "使用示意图")
+
+You can also import an OmniOutliner file and automatically apply a Diagram Style in the Import Outline dialog. Use the pop-up menu at the top of the dialog to select which Diagram Style to apply, select either **New Document** to create a new document or **New Canvas** to add a new canvas to your current OmniGraffle document, and then click **OK**.
+
+![使用示意图](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/import-outline.png "使用示意图")
+
+OmniGraffle applies the chosen Diagram Style to text imported from the OmniOutliner file and translates that text into visible objects on the canvas. When you apply a diagram style, the items of the outline are styled to match the diagram style’s shapes, connection lines, and automatic layout settings. Items at each level of the outline become shape objects, matching objects at the same level of the diagram. If the outline has more levels than the diagram style, the deeper items use the styles of the deepest level of the diagram style.
+
+Diagram Styles make it easy for you to get a visual representation of something that might otherwise just appear to be static text. For example, if you are a writer, this is a great way to map out the relationships of different characters or to visualize the story arc of that novel you’ve been working on. What’s more, OmniGraffle comes packed with a variety of Diagram Styles, so if you don’t like one, you can always apply another by choosing **Format > Choose Diagram Style** and selecting a different style.
+
+You can force manually styled objects to conform to the diagram style by selecting them and choosing **Format > Restyle Selected Objects**, or you can force all objects on the canvas to conform by choosing **Format > Reapply Diagram Style**.
+
+## The Inspectors—The Other Sidebar
+
+Along the right side of the window, you’ll find the **Inspectors** sidebar. You use the Inspectors to change the style attributes for the objects on the Canvas, or set the properties of the Canvas itself. If you don’t see them, click the **Inspect** button in the toolbar, or choose **View > Show Inspectors (Shift-⌘-I)** from the menu bar.
+
+The Inspectors sidebar contains five inspectors—Object, Type, Properties, Canvas, and Document—and the **Stencils Library**, which used to have its own floating palette in earlier versions of OmniGraffle. Inspectors are grouped by the type of content they govern. You can browse the various Inspector categories by clicking the icons along the top of the sidebar. Within each Inspector, you’ll find multiple, collapsable inspectors for changing the properties of an object.
+
+To open an Inspector, hover over the title with the mouse, and then click on the disclosure triangle to open and use the inspector. To open one particular inspector (for example the **Stroke** inspector) any other open inspectors, **Shift-Option-click** on the disclosure triangle. To open or close all of the inspectors, **Shift-⌘-click** on one of the disclosure triangles.
+
+![查看器](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspectors.png "查看器")
+
+## 使用查看器
+
+If you find that you’re using a particular Inspector section quite a bit, you can lock it in the open position. Just double-click the Inspector’s button instead of single-clicking it; the button gets a green lock icon. As you show and hide other sections in the same inspector window, the locked section remains visible. When you’re done, just double-click the button again and the lock icon goes away. The lock also goes away when you switch to another Inspector; for example, from a locked Object inspector to the Type inspector.
+
+In all of the inspectors, you can click in a text field that contains a number, and then press the up or down arrow keys to increment or decrement the number. Also, once you click a circular rotation control, you can keep the mouse button held down while moving the pointer away from the control to gain more rotational precision.
+
+Any color well can have its color dragged to an object on the canvas or to another color well. When you drag to an object, you can drop the color on the object’s stroke, fill, or text.
+
+In places where you can enter measurements, such as in the Geometry inspector, values are shown in the current ruler units, or, if there is no unit scale, in the canvas units. You can, however, enter values in any units that are available in the ruler, such as miles or kilometers. As soon as you finish entering the value, OmniGraffle converts it to the correct units automatically.
+
+You can also perform simple arithmetic and mix units. Add (+), subtract (−), multiply (*), or divide (/) numbers right in the input fields.
+
+## 对象查看器
+
+Use the **Object inspectors** to view and change details about the objects on the Canvas.
+
+## 使用填充查看器给形状着色
+
+Use the Fill inspector to choose a color or gradient to fill the inside of the selected shapes.
+
+![查看器-填充](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-fill.png "查看器-填充")
+
+* Use the pop-up menu on the left side of the inspector to choose from the nine kinds of fill: Solid, Linear Blend, Radial Blend, Double Linear Blend, Double Radial Blend, Stipple, Marker, and Squiggle. No Fill is also available as an option for objects where transparency is desired.
+* The blend rotation control becomes active when you choose a linear blend; enter a number of degrees in the field or drag the circular control to set the angle of the gradient. The blend position control becomes active when you choose a radial gradient; drag its crosshair to move the gradient’s center.
+* Click the color well to choose the color of the fill.
+* If you have chosen a two-color blend, you can click the swap button to exchange the two colors.
+* If you choose a blend, two or three color wells become available. Click them to choose the colors to blend together.
+* Drag the bias slider on the far right to shift a blend toward one side or the other.
+
+You can also edit the fill color of a canvas itself using the Canvas Fill inspector.
+
+**OmniGraffle Pro:**
+OmniGraffle Pro offers an extra section in the Color panel for creating pattern fills.
+
+## 描边查看器
+
+Use the Stroke inspector to change the appearance of the selected connection lines or of the line drawn around the edge of the selected shapes.
+
+![查看器-描边](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-stroke.png "查看器-描边")
+
+* Use the dropdown menu to choose a single stroke, double stroke, freehand stroke, or no stroke at all.
+* Click the color well to choose a color for the stroke.
+* Enter a number in the Thickness field or use the keyboard arrows to choose how thick the stroke should be.
+* The first of the three pop-up menus determines the stroke pattern (solid, dashed, dotted, et cetera). The center pop-up menu determines how the stroke appears at its ends: The Butt option ends the line by cutting across its endpoint at an angle perpendicular to the line itself, while the Round and Square options let the line extend past its endpoint based on the stroke width. The third pop-up menu determines how the stroke appears at its corners: Miter creates a sharp corner, Round creates a soft corner, and Bevel creates a cut- off corner.
+
+## Making Objects Cast Shadows with the Shadow Inspector
+
+Use the Shadow inspector to drop a shadow behind the selected objects.
+
+![查看器-阴影](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-shadow.png "查看器-阴影")
+
+* Click the leftmost button to choose whether the selected object has a shadow, and if the shadow appears in front of objects or behind objects on the same layer. If you choose to let shadows appear in front of objects on the same layer, the ordering of objects matters; you can reorder objects with the Bring and Send commands in the Arrange menu.
+* Enter a number in the blur field or use the keyboard arrows to choose how precise or blurry the shadow should be.
+* Drag the crosshair in the offset control or enter numbers in the offset fields to set how far away from the object the shadow should fall.
+* Click the color well in the upper-right to choose a color for the shadow; partially transparent black tends to work best.
+
+## The Shapes Inspector
+
+If you have a shape object selected, use this inspector to transform it in various ways.
+
+![查看器-形状](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-shapes.png "查看器-形状")
+
+* To change the shape to another, the upper right button provides a grid containing available shapes. It includes all of OmniGraffle’s built-in shapes plus all of the current canvas’s custom shapes (ones created with the pen tool or shape combinations).
+* Use the Corner Radius field to set how round the corners of the shape should be; enter 0 for perfectly pointy corners.
+* (Pro) With multiple shapes selected, use the Combine Shapes button as an alternative tool for crafting custom shapes. Available actions include Unite Shapes, Intersect Shapes, Subtract Shapes, and Uncombine Shapes. OmniGraffle will do its best to preserve all data associated with the combined objects, but some (text in particular) may be lost when the Uncombine Shapes action is used.
+* (Pro) Check the Edit Points checkbox to convert the shape to a custom object with editable Bézier points.
+
+## The Lines Inspector
+
+Use this inspector to configure the properties of a selected line.
+
+![查看器-线条](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-shapes.png "查看器-线条")
+
+* The three pop-up menus determine the style of the tail, middle, and head of the line. Use the tail and head menus to set the line endings. Use the middle menu to set how the line travels from its source to its destination: Straight for a line that takes the shortest possible path between points, Curved for a line that turns smoothly to pass through each point, Orthogonal for a line that always travels horizontally or vertically, or Bézier for a line with control points you can adjust with the selection tool.
+* Use the fields below the tail and head menus to change the line ending sizes. Click the reverse button to swap the line’s source and destination points.
+* Click **Remove Midpoints** to get rid of all points between the source and destination points.
+* The **Line Hops** menu determines what the line should do when it crosses other lines; choose one of the hop types to make the line jump over or under other lines, or choose Ignore this line to prevent other lines from hopping over or under it. The hops depend on the ordering of the lines involved; you can reorder objects with the Bring and Send commands in the Arrange menu.
+
+## Placing Graphics Inside a Shape with the Image Inspector
+
+You can use this inspector to position an image inside a shape. (Note that instead of creating an object and then adding an image, you could also simply drag an image file from another application straight onto the canvas.)
+
+![查看器-图像](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-image.png "查看器-图像")
+
+* Use the Image pop-up menu to set an image in the selected shape. Once an image is set, a Remove Image command appears in the menu.
+* When you browse for an image file, you have the option of creating an alias (or “link”) to the image instead of adding the image to the OmniGraffle file itself. If you do this, the OmniGraffle document depends on the original image file; the alias will not work if you delete the image file or open the document on a different computer. If an object’s image comes from an alias, some extra commands become available in the Image pop-up menu: you can Open the original image file, Reveal the original file in the Finder, or stop using the alias and Embed a copy of the image in the OmniGraffle document.
+* Another way to set an image is just to drag an image file from another application and drop it on the image well, or on the shape object itself.
+* The first button displays the image at its natural aspect ratio, with a zoom level and position as set with the controls below. The second button makes the image stretch to fit inside the object. The third button makes the image tile indefinitely across the object.
+* The positioning offsets are enabled if you are displaying the image at its natural aspect ratio, as set by the first of the three buttons above. You can type a positive or negative percentage, or just drag the image around in the image well to indicate the area you want.
+* The zoom controls are available unless you are stretching the image to fit the shape. You can enter a zoom percentage, or just drag the slider, to make the image larger or smaller.
+* You can make the image transparent and let the object’s fill show through by decreasing the value of the opacity field, or by dragging the opacity slider.
+
+## Changing Object Position and Size with the Geometry Inspector
+
+This inspector deals with an object’s position and orientation.
+
+![查看器-几何](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-geometry-1.png "查看器-几何")
+
+* To rotate the object, enter a degree value in the rotation field, or drag the circular control.
+* The top two fields contain the X and Y (horizontal and vertical) coordinates for the selected objects; the value represents the distance between the canvas’s origin and the upper-left corner of the object (which might not be obvious if the object is rotated or flipped). If you have multiple objects selected, two hyphens (- -) appear in the fields that have different values. Enter a new X or Y value to move an object on the canvas.
+* The next two fields contain the Width and Height values for the selected objects. If you have multiple objects selected, two hyphens (- -) appear in the fields that have different values. Enter a new width or height value to resize an object on the canvas.
+* Click the flip buttons to reverse the object horizontally or vertically.
+* Next to the flip buttons is a pop-up menu with the following options:
+    * No scaling — by default, the objects you draw on the canvas are not scaled to any size or proportion.
+    * Maintain Aspect Ratio — the objects you draw or resize are scaled proportionally. In addition, there are three additional aspect-related options:
+    * Scale Stroke — scales the object’s stroke proportionally.
+    * Scale Font — scales any text inside the object
+proportionally.
+    * Scale Stroke and Font — scales the objects stroke and text proportionally.
+
+If you have selected a line label, two additional controls become active:
+
+![查看器-几何](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-geometry-2.png "查看器-几何")
+
+Use the pop-up menu to set how the label’s text appears in relation to the line. Options include: Horizontal, Vertical, Parallel, Perpendicular, Independent, and Follows Path. Use the slider next to the pop-up menu to change the label’s position in relation to the line.
+
+## Positioning Objects Neatly with the   Alignment Inspector
+
+Use this inspector to line up and space out objects uniformly.
+
+![查看器-对齐](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-alignment.png "查看器-对齐")
+
+* The matrix of nine buttons on the left changes how the alignment buttons work. It represents all of the combinations between vertically aligning to the top, middle, or bottom, and horizontally aligning to the left, center, or right. If you want, for example, to align objects by their upper-right corners, click the upper-right button in the matrix.
+* Next to the button matrix are the align buttons. Their icons change to reflect the state of the button matrix. Click the horizontal-align button to line up the selected objects horizontally. Click the vertical- align button to line up the selected objects vertically. The first object you selected stays where it is, and the other selected objects move to align with it. These buttons are only useful when you have at least two objects selected.
+* Next to the align buttons are two spread buttons. Click the horizontal spread button to distribute the selected objects evenly between the leftmost and rightmost objects. Click the vertical spread button to distribute the selected objects evenly between the top and bottom objects. These buttons are only useful when you have at least three objects selected.
+* To the right are two fields and their associated spacing buttons. Enter a value in the top field and click the horizontal spacing button to put the specified amount of horizontal space between the selected objects. Enter a value in the bottom field and click the vertical spacing button to put the specified amount of vertical space between the selected objects. These buttons are only useful if you have at least two objects selected.
+* If **Align to canvas** is selected, the align and spread buttons consider the canvas edges as “objects” when arranging the selected objects. This makes it so that you can align objects to a canvas edge, or space objects evenly between the canvas edges.
+
+## Type Inspectors
+
+Manage the typography of selected objects.
+
+## Font Inspector
+
+Use this inspector to modify the font properties of the selected objects, including style, size, and color.
+
+![查看器-字体](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-font.png "查看器-字体")
+
+## Positioning and Styling Text with the Text Inspector
+
+Use this inspector to control the positioning and appearance of the selected shape’s text.
+
+![使用文本查看器给文本定位和设置文本样式](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-text.png "使用文本查看器给文本定位和设置文本样式")
+
+* With the horizontal alignment buttons, you can align left, center, align right, or justify the text.
+* Click the color well to choose a font color.
+* There are three buttons for controlling what happens when the shape contains more text than can be contained within its bounds. You can choose to let the text overflow outside of the shape, to clip off the text that doesn’t fit inside the shape, or to resize the shape to make the text fit. If you choose resize, the object will only be manually resizable in the horizontal direction; it will resize vertically according to its text. Select the Wrap to shape checkbox to limit the text’s width to the limits set by the Text Offset settings below.
+* There are three buttons for setting the vertical alignment of the text; choose to align to the top, middle, or bottom of the shape.
+* On the right side are controls for setting the Kerning (automatic character spacing for ideal balance), Tracking (manual character spacing), Leading (distance between lines), and Margins (distance between text and the edges of the text area). These controls become enabled or disabled depending on other controls in the inspector, or the amount of text in the object.
+
+## The Offsets Inspector (Pro)
+
+This inspector contains the Text Offset and Text Rotation controls.
+
+![Offsets Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-offsets.png "Offsets Inspector")
+
+By default, the **Use default offsets** option is turned on. If you uncheck this option, you can adjust the text’s position using the four input fields above; these are:
+
+Text Offset from Left
+
+This adjusts the text’s position from the left edge of the object.
+
+Text Offset from Top
+This adjusts the text’s position from the top edge of the object.
+
+Width:
+This adjusts the text box’s width.
+
+Height
+This adjusts the text box’s height.
+
+Use the text’s rotation value to determine how the text appears when you rotate the object. By default, **Relative rotation** is turned on, which means that the text within an object will maintain its relative position when an object is rotated. Turn this off to set the text’s rotation independent of its bounding object. You can either enter a rotation value in the field or drag the circular control to rotate the text.
+
+## Properties Inspectors (Pro)
+
+Use the **Properties inspectors** to manage the advanced properties of selected objects.
+
+## Changing the Way Objects Connect with the Connections Inspector (Pro)
+
+Use this inspector to control how objects connect to one another.
+
+![Connection Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-connections.png "Connection Inspector")
+
+* Turn off **Allow connections from lines** to make it impossible for connection lines to use the selected objects as sources or destinations.
+* If you have a group or a table selected, you can choose whether connection lines should be allowed to connect to objects in the group or only to the group as a whole.
+* The pop-up menu contains a bunch of magnet presets you can choose for the selected shape object. Magnets are points on a shape object that attract connection lines. You can choose to have no magnets, magnets placed according to cardinal directions (North, South, East, and West), magnets on each vertex (corner), or a certain number of magnets on each side of the shape.
+**Note**
+The Magnet options can be found in the Edit menu in the standard edition of OmniGraffle 6.
+* If you select some number of magnets per side, then hold Shift while opening the pop-up menu and selecting another number, the two numbers are added together; you can get up to 10 magnets per side in this way.
+* Of course, you can always use the Magnet tool to customize a shape’s magnet arrangement.
+* If you have a line selected, the Lines checkboxes become available. Deselect the Allow connections to other objects checkbox to make it impossible for the line to have an object as its source or destination. Deselect the Allow shapes to become labels checkbox to make it impossible to drag a shape onto the line and make it a line label; existing labels stay attached.
+* Use the **Object Rank** buttons to assign a hierarchical rank to the selected objects. Default lets OmniGraffle decide the rank based on connections, Minimum puts the objects at the top of the hierarchy, Maximum puts the objects at the bottom of the hierarchy, and Same makes sure that the objects end up on the same level. These assignments don’t change the directions of connection lines, so you can always select all of your objects and choose Default to return them to normal.
+
+### Adding Data to Objects with the Note Inspector (Pro)
+
+The Note inspector contains a field for entering text to associate with the selected object, and a table of custom data.
+
+![Note Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-note.png "Note Inspector")
+
+The note can be formatted as Rich Text, which means you can use all of the different font styles and colors that you can use elsewhere in OmniGraffle. When you put the pointer over an object with a note, the note’s text appears in a help tag floating over the object.
+
+You can use the custom data table to keep your own information about the object. Custom data is stored as key/value pairs: the Key is like a label for what type of information you are storing, and the Value is the information itself.
+
+For example, imagine you have a diagram of a computer network, and you want to assign a model number to each component. Click the placeholder row or the plus button to create a new key/value pair. In the Key column, you would type Part Number, and in the Value field, you would type, say, A1181. This data doesn’t have any effect on the way OmniGraffle works; it’s just a way for you to store arbitrary data about objects in your diagram. To delete a row of data, click the ‘x’ button on the right side of the row.
+
+Notes can be found by OS X’s Spotlight search feature, in case you need to find your OmniGraffle diagrams that contain certain words.
 
 
+### Making Objects Interactive with the Action Inspector (Pro)
 
+The Action inspector determines what should happen when someone clicks the selected object with the Action Browse Tool ==Hanle Icon==￼ in the toolbar.
+The default action is Does Nothing. You can click the object all you want, and nothing happens.
 
+![Action Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-action.png "Action Inspector")
 
+If you choose **Opens a URL** or **Opens a File**, you get a text field in which you can enter a URL or file path, along with two buttons: **Choose File** and **Open**. Click **Choose File** to browse your Mac’s hard drive for a file. Note that file paths are relative: they start from the folder containing the document you’re working on, not from the root of your hard drive. Click **Open** button to try opening the file or URL that you’ve specified. When the object is clicked, the file or URL is opened in the appropriate app.
 
+If you choose **Runs a Script**, you get a text field for entering an AppleScript. The script that you enter is run such that self refers to the clicked object. Click **Check Syntax** to make sure that the AppleScript is correct, and then click **Run Script** to try it out. In Presentation Mode **(Option-⌘-P)**, the script runs when an actionable object is clicked.
 
+If you choose **Jumps Elsewhere**, you get another pop-up menu for choosing where in the current document to jump. You can jump to a specific canvas, the next or previous canvas, or a specific point or object on any canvas. Some of these options offer a tiny canvas preview, in which you can click or drag to indicate which object to highlight, which point to center on, or where to zoom.
 
+If you choose Shows or **Hides Layers**, you can indicate whether to show, hide, or toggle the visibility of any layer of the current canvas.
 
+### Canvas Inspectors
 
+Manage the appearance and properties of the current or selected canvases.
 
+### Changing the Canvas Size and Scale with the Canvas Size Inspector
 
+Use this inspector to change the size of the canvas, how the canvas fits onto printed pages, or what kind of measurement units to use.
 
+![Canvas Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-canvas.png "Canvas Inspector")
 
+* The Canvas Size fields control the width and height of the canvas.You can use any of the units available in the Ruler, or enter anumber of pages.
+* Select Size is multiple of printer sheets to make the edges of the canvas snap to the edges of pages. This prevents the canvas from ending in the middle of a page.
 
+* If you select Auto-adjust the canvas size, the canvas will grow or shrink to fit the objects you create.
+* When you print, if Print canvas on one printer sheet is selected, the canvas gets scaled up or down to fit a single piece of paper regardless of its size on the screen.
+* The Orientation of pages can be portrait (vertical), landscape (horizontal), or can be taken from the settings in Page Setup.
+* (Pro) Set the desired representation of one “point” as displayed on screen at 100% zoom to best fit your printing needs or screen pixel density (one Apple point is the default).
 
+### The Canvas Fill Inspector
 
+Select a canvas by clicking its preview in the sidebar to edit its background fill properties. As with the Object Fill inspector you can choose from nine fill styles and edit various parameters of each.
 
+![Canvas Fill Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-canvas-fill.png "Canvas Fill Inspector")
 
+### The Background Image Inspector
 
+You can also add an image to a canvas. Just click the canvas in the sidebar and then use the Background Image inspector to place an image similarly to the Object Image inspector.
 
+![Background Image Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/inspector-background-image.png "Background Image Inspector")
 
-
-
-
+Use the controls to the left of the Mask button to Manually Size, Stretch, or Tile the image you’ve placed. Use the grid of four fields to position the image from left, from top, sized horizontally, or sized vertically. Use the slider at the bottom of the inspector to change the image’s opacity.
