@@ -1,3 +1,11 @@
+
+<style>
+.center {
+  text-align: center;
+}
+</style>
+
+
 # OmniGraffle手册
 
 移动对象
@@ -70,4 +78,87 @@ Page.45
 
 
 层用于组织画布中的对象,每个画布至少必须有一个层,可以按需要添加任意数量的层, OmniGraffile中的层的概念和Photoshop中层的概念是高度相似的,如果你熟悉Photoshop那么在OmniGraffile中使用层是非常顺手的事情. 默认情况,层是隐藏的,可以单击画布预览图旁边的[菱形]图标显示和隐藏层,每个层都有一个预览图显示层中的内容,以及一个标题文本, 标题文本下为四个图标按钮
+
+## Sharing Layers with Multiple Canvases (Pro)
+
+You can share a layer between multiple canvases. That way, whenever you change the layer, it affects every canvas that uses that layer.
+
+To share a layer between canvases, select the layer and then:
+
+* Choose **Edit > Layer Settings > Shared Layer**
+* Under the layer’s title, click the **Shared Layer** icon
+
+When a layer is shared, the title turns orange and an orange tint is added
+to the layer’s preview image.
+
+![共享层](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/shared-layers.png)
+
+To create a new shared layer:
+
+* Choose **New Shared Layer** from the **Action Menu** at the bottom of the canvases sidebar. 
+* Choose **Edit > Layers > New Shared Layer**
+
+After creating (or designating an existing layer as) a new shared layer:
+
+* Add and edit objects on the layer normally.
+* Any further changes you make to any copy of the layer are also applied to all other copies of it.
+
+Objects on shared layers, the corresponding items in the list sidebar, and shared layer previews in the canvases sidebar all appear in the distinctive shared layer color, to remind you that you could be affecting many canvases if you edit them.
+
+To delete a shared layer, select the shared layer and:
+
+* Press the Delete key
+* Choose Edit > Delete from the menu Bar
+* Control-click on the shared layer and select Delete Layer in the contextual menu
+* Select Delete Layer from the Action Menu at the bottom of the sidebar
+
+There is also a Delete [layer name] from All Canvases option that, when chosen, removes that shared layer from every canvas in your project.
+
+## Contents
+
+The Contents portion of the Sidebar offers three different ways to create, view, and edit the objects in your projects: List View, Outline Editor, and Selection Matrix.
+
+![内容](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/contents.png)
+
+To switch between the different sections of the Contents sidebar, you can either click on the buttons in the header row for the Contents sidebar, or:
+
+* List View:
+    * Choose **View > Show Contents > List View**
+    * Use the **Option-⌘–2** keyboard shortcut
+* Outline Editor:
+    * Choose View > Show Contents > Outline Editor
+    * Use the Option-⌘–3 keyboard shortcut
+* Selection Matrix:
+    * Choose View > Show Contents > Selection Matrix
+    * Use the Option-⌘–4 keyboard shortcut
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
