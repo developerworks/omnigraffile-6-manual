@@ -62,7 +62,7 @@ Page.45
 
 如果你单击Guides图标(位于画布右侧的粉色方框), 可以以固定间隔,精确定位的方式创建一系列的参考线, Horizonal Guides为水平参考系, Vertical Guides为垂直参考线
 
-![在画布上创建和定位参考线](images/creating_guides.png)
+![在画布上创建和定位参考线](https://raw.github.com/developerworks/omnigraffile-6-manual/master/images/createing_guides.png)
 
 可以给参考线设置一个默认颜色, 也可以给参考线分别设置不同的颜色, 这在有不同颜色组成的背景图的时候特别有用,点击参考线设置弹出菜单右上角的图表,可以切换参考线是否可见, 或锁定参考线的位置(不能用鼠标拖动了)
 
