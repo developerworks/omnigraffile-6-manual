@@ -28,4 +28,4 @@ Diagram Styles make it easy for you to get a visual representation of something 
 
 You can force manually styled objects to conform to the diagram style by selecting them and choosing **Format \> Restyle Selected Objects**, or you can force all objects on the canvas to conform by choosing **Format \> Reapply Diagram Style**.
 
-[Home](index.html) [The Inspectors 〉](index09_theinspectors.html)
+[主页](index.html) [查看器 〉](index09_theinspectors.html)
