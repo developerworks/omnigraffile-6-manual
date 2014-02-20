@@ -2,16 +2,16 @@
 
 -   What’s New in OmniGraffle 6
 -   Getting to Know OmniGraffle
--   The Resource Browser
--   The Toolbar
--   Using the Tools
--   The Sidebar
--   Using the Canvas
--   The Inspectors (The Other Sidebar)
--   Drawing Basics
--   A Quick Tutorial
--   Reference
+-   资源浏览器
+-   工具条
+-   使用工具
+-   边栏
+-   使用画布
+-   查看器 (The Other Sidebar)
+-   绘图基础
+-   快速上手指南
+-   参考
 -   Every Single Menu Command
--   Getting Help
+-   获得帮助
 
-[What’s New in OmniGraffle 6 〉](index02_whatsnew.html)
+[OmniGraffle 6 新特性 〉](index02_whatsnew.html)
