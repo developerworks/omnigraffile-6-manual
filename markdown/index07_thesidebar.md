@@ -6,7 +6,7 @@ On the left side of OmniGraffle’s window is the **Sidebar**. In earlier versio
 
 In OmniGraffle 6, however, these two sidebars were combined into one that’s split in half with Canvases on top, and Contents below. This split-level sidebar gives you more room to work with on the Canvas, while still giving you access to your project’s canvases, layers, and the contents editors in one convenient place. Hover over the sidebar just above the **Contents** section and the pointer changes to a resize control; click and drag up or down to make one
 
-**Tip**\
+**Tip**
  Need more space? Just hit **Option-⌘–1** to hide the sidebar or to bring it back again.
 
 ## Canvases {#Canvases}
@@ -32,7 +32,7 @@ Each Canvas has a title, a disclosure triangle for showing its layers, and a pre
     -   **Control-click** on the preview icon and select **Delete Canvas** from the contextual menu
     -   Choose **Delete Canvas** from the **Action** menu at the bottom of the sidebar next to the Search field
 
-**Note**\
+**Note**
  Any document needs at least one canvas, so you can’t delete the last one.
 
 Canvases can be dragged around to rearrange their order, or to copy them between documents.
@@ -84,7 +84,7 @@ To delete a layer:
 
 And remember, if you delete a layer by accident, you can always hit **⌘-Z** to restore the layer.
 
-**Note**\
+**Note**
  A canvas must have at least one layer, so you can never delete every single layer in a project.
 
 ### *PRO* Sharing Layers with Multiple Canvases {#SharingLayersWithMultipleCanvases}
@@ -168,7 +168,7 @@ To start working in the outline, just click an existing item, or double-click in
 -   **Shift-Tab** — outdents the currently selected item, making it a peer of what used to be its parent.
 -   **Escape (esc)** — switches between selecting an item and editing the item’s text.
 
-**Note**\
+**Note**
  Additional keyboard shortcuts for quickly building outlines can be found in **Help \> Keyboard Shortcuts**.
 
 An item can be dragged around the outline view by its handle, the dot or triangle to the left of each item. Dragging an item with children brings its children along for the ride. While you drag an item, a black line shows the location and indentation level at which the item will be dropped when you let go of the mouse button.
