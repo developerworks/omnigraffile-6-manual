@@ -18,4 +18,4 @@ If you’re stuck, if you have a good idea for the next version of OmniGraffle, 
 
 For really meticulously detailed information about what has changed in each minor version of OmniGraffle, check out **Help \> Release Notes** from the menu bar.
 
-[Home](index.html)
+[主页](index.html)
