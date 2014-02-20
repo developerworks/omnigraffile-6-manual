@@ -1,4 +1,4 @@
-![OmniGraffle 6s application icon](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_icon.png)
+![OmniGraffle 6s application icon](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_icon.png)
 
 -   What’s New in OmniGraffle 6
 -   Getting to Know OmniGraffle

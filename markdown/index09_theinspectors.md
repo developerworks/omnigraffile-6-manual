@@ -6,7 +6,7 @@ The Inspectors sidebar contains five inspectors—Object, Type, Properties, Canv
 
 To open an Inspector, hover over the title with the mouse, and then click on the disclosure triangle to open and use the inspector. To open one particular inspector (for example the **Stroke** inspector) any other open inspectors, **Shift-Option-click** on the disclosure triangle. To open or close all of the inspectors, **Shift-⌘-click** on one of the disclosure triangles.
 
-![Click the title of an inspector thats closed to open it up](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_useof.png)
+![Click the title of an inspector thats closed to open it up](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_useof.png)
 
 ## Using the Inspectors {#UsingTheInspectors}
 
@@ -28,7 +28,7 @@ Use the **Object inspectors** to view and change details about the objects on th
 
 Use the Fill inspector to choose a color or gradient to fill the inside of the selected shapes.
 
-![The Fill Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_01_fillinspector.png)
+![The Fill Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_01_fillinspector.png)
 
 -   Use the pop-up menu on the left side of the inspector to choose from the nine kinds of fill: Solid, Linear Blend, Radial Blend, Double Linear Blend, Double Radial Blend, Stipple, Marker, and Squiggle. No Fill is also available as an option for objects where transparency is desired.
 
@@ -50,7 +50,7 @@ You can also edit the fill color of a canvas itself using the Canvas Fill inspec
 
 Use the Stroke inspector to change the appearance of the selected connection lines or of the line drawn around the edge of the selected shapes.
 
-![The Stroke Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_02_strokeinspector.png)
+![The Stroke Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_02_strokeinspector.png)
 
 -   Use the dropdown menu to choose a single stroke, double stroke, freehand stroke, or no stroke at all.
 
@@ -64,7 +64,7 @@ Use the Stroke inspector to change the appearance of the selected connection lin
 
 Use the Shadow inspector to drop a shadow behind the selected objects.
 
-![The Shadow Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_03_shadowinspector.png)
+![The Shadow Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_03_shadowinspector.png)
 
 -   Click the leftmost button to choose whether the selected object has a shadow, and if the shadow appears in front of objects or behind objects on the same layer. If you choose to let shadows appear in front of objects on the same layer, the ordering of objects matters; you can reorder objects with the Bring and Send commands in the Arrange menu.
 
@@ -78,7 +78,7 @@ Use the Shadow inspector to drop a shadow behind the selected objects.
 
 If you have a shape object selected, use this inspector to transform it in various ways.
 
-![The Shapes Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_04_shapesinspector.png)
+![The Shapes Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_04_shapesinspector.png)
 
 -   To change the shape to another, the upper right button provides a grid containing available shapes. It includes all of OmniGraffle’s built-in shapes plus all of the current canvas’s custom shapes (ones created with the pen tool or shape combinations).
 
@@ -92,7 +92,7 @@ If you have a shape object selected, use this inspector to transform it in vario
 
 Use this inspector to configure the properties of a selected line.
 
-![The Lines Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_05_linesinspector.png)
+![The Lines Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_05_linesinspector.png)
 
 -   The three pop-up menus determine the style of the tail, middle, and head of the line. Use the tail and head menus to set the line endings. Use the middle menu to set how the line travels from its source to its destination: Straight for a line that takes the shortest possible path between points, Curved for a line that turns smoothly to pass through each point, Orthogonal for a line that always travels horizontally or vertically, or Bézier for a line with control points you can adjust with the selection tool.
 
@@ -106,7 +106,7 @@ Use this inspector to configure the properties of a selected line.
 
 You can use this inspector to position an image inside a shape. (Note that instead of creating an object and then adding an image, you could also simply drag an image file from another application straight onto the canvas.)
 
-![The Image Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_06_imageinspector.png)
+![The Image Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_06_imageinspector.png)
 
 -   Use the Image pop-up menu to set an image in the selected shape. Once an image is set, a Remove Image command appears in the menu.
 
@@ -126,7 +126,7 @@ You can use this inspector to position an image inside a shape. (Note that inste
 
 This inspector deals with an object’s position and orientation.
 
-![The Geometry Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_07_geometryinspector.png)
+![The Geometry Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_07_geometryinspector.png)
 
 -   To rotate the object, enter a degree value in the rotation field, or drag the circular control.
 
@@ -146,7 +146,7 @@ This inspector deals with an object’s position and orientation.
 
 If you have selected a line label, two additional controls become active:
 
-![Additional geometry controls for labels](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_07_geometry_labels.png)
+![Additional geometry controls for labels](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_07_geometry_labels.png)
 
 Use the pop-up menu to set how the label’s text appears in relation to the line. Options include: Horizontal, Vertical, Parallel, Perpendicular, Independent, and Follows Path. Use the slider next to the pop-up menu to change the label’s position in relation to the line.
 
@@ -154,7 +154,7 @@ Use the pop-up menu to set how the label’s text appears in relation to the lin
 
 Use this inspector to line up and space out objects uniformly.
 
-![The Alignment Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_08_alignmentinspector.png)
+![The Alignment Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_08_alignmentinspector.png)
 
 -   The matrix of nine buttons on the left changes how the alignment buttons work. It represents all of the combinations between vertically aligning to the top, middle, or bottom, and horizontally aligning to the left, center, or right. If you want, for example, to align objects by their upper-right corners, click the upper-right button in the matrix.
 
@@ -174,13 +174,13 @@ Manage the typography of selected objects.
 
 Use this inspector to modify the font properties of the selected objects, including style, size, and color.
 
-![The Font Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_09_fontinspector.png)
+![The Font Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_09_fontinspector.png)
 
 ### Positioning and Styling Text with the Text Inspector {#TheTextInspector}
 
 Use this inspector to control the positioning and appearance of the selected shape’s text.
 
-![The Text Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_10_textinspector.png)
+![The Text Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_10_textinspector.png)
 
 -   With the horizontal alignment buttons, you can align left, center, align right, or justify the text.
 
@@ -196,7 +196,7 @@ Use this inspector to control the positioning and appearance of the selected sha
 
 This inspector contains the Text Offset and Text Rotation controls.
 
-![The Offset Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_11_offsetsinspector.png)
+![The Offset Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_11_offsetsinspector.png)
 
 By default, the **Use default offsets** option is turned on. If you uncheck this option, you can adjust the text’s position using the four input fields above; these are:
 
@@ -219,7 +219,7 @@ Use the **Properties inspectors**, available only in OmniGraffle Pro, to manage 
 
 Use this inspector to control how objects connect to one another.
 
-![The Connections Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_12_connectionsinspector.png)
+![The Connections Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_12_connectionsinspector.png)
 
 -   Turn off **Allow connections from lines** to make it impossible for connection lines to use the selected objects as sources or destinations.
 
@@ -242,7 +242,7 @@ Use this inspector to control how objects connect to one another.
 
 The Note inspector contains a field for entering text to associate with the selected object, and a table of custom data.
 
-![The Note Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_13_noteinspector.png)
+![The Note Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_13_noteinspector.png)
 
 The note can be formatted as Rich Text, which means you can use all of the different font styles and colors that you can use elsewhere in OmniGraffle. When you put the pointer over an object with a note, the note’s text appears in a help tag floating over the object.
 
@@ -254,9 +254,9 @@ Notes can be found by OS X’s Spotlight search feature, in case you need to fin
 
 ### Making Objects Interactive with the Action Inspector (**Pro**) {#TheActionInspector}
 
-The **Action inspector** determines what should happen when someone clicks the selected object with the Action Browse Tool ![The Action Browse Tool](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_toolpalette_12_browsetool.png) in the toolbar. The default action is Does Nothing. You can click the object all you want, and nothing happens.
+The **Action inspector** determines what should happen when someone clicks the selected object with the Action Browse Tool ![The Action Browse Tool](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_toolpalette_12_browsetool.png) in the toolbar. The default action is Does Nothing. You can click the object all you want, and nothing happens.
 
-![The Action Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_14_actioninspector.png)
+![The Action Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_14_actioninspector.png)
 
 If you choose **Opens a URL** or **Opens a File**, you get a text field in which you can enter a URL or file path, along with two buttons: **Choose File** and **Open**. Click **Choose File** to browse your Mac’s hard drive for a file. Note that file paths are relative: they start from the folder containing the document you’re working on, not from the root of your hard drive. Click **Open** button to try opening the file or URL that you’ve specified. When the object is clicked, the file or URL is opened in the appropriate app.
 
@@ -274,7 +274,7 @@ Manage the appearance and properties of the current or selected canvases.
 
 Use this inspector to change the size of the canvas, how the canvas fits onto printed pages, or what kind of measurement units to use.
 
-![The Canvas Size Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_15_canvassizeinspector.png)
+![The Canvas Size Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_15_canvassizeinspector.png)
 
 -   The Canvas Size fields control the width and height of the canvas. You can use any of the units available in the Ruler, or enter a number of pages.
 
@@ -292,13 +292,13 @@ Use this inspector to change the size of the canvas, how the canvas fits onto pr
 
 Select a canvas by clicking its preview in the sidebar to edit its background fill properties. As with the Object Fill inspector you can choose from nine fill styles and edit various parameters of each.
 
-![The Canvas Fill Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_16_canvasfillinspector.png)
+![The Canvas Fill Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_16_canvasfillinspector.png)
 
 ### The Background Image Inspector {#TheBackgroundImageInspector}
 
 You can also add an image to a canvas. Just click the canvas in the sidebar and then use the Background Image inspector to place an image similarly to the Object Image inspector.
 
-![The Background Image Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_17_backgroundimageinspector.png)
+![The Background Image Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_17_backgroundimageinspector.png)
 
 Use the controls to the left of the Mask button to Manually Size, Stretch, or Tile the image you’ve placed. Use the grid of four fields to position the image from left, from top, sized horizontally, or sized vertically. Use the slider at the bottom of the inspector to change the image’s opacity.
 
@@ -306,7 +306,7 @@ Use the controls to the left of the Mask button to Manually Size, Stretch, or Ti
 
 Use the **Units inspector** to determine the unit of measure to use for the canvas and its rulers, as well as to set the scale and origin points.
 
-![The Unit Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_18_unitsinspector.png)
+![The Unit Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_18_unitsinspector.png)
 
 #### Units {#Units}
 
@@ -334,7 +334,7 @@ By default, the very upper-left corner of a canvas is its origin (that is, the p
 
 Use this inspector to set up a grid on the canvas, so you can keep objects lined up nicely.
 
-![The Grid Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_19_gridinspector.png)
+![The Grid Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_19_gridinspector.png)
 
 The two fields at the top of the inspector are where you can set the values for the Major and Minor Grid spacing, respectively:
 
@@ -361,7 +361,7 @@ The checkboxes beneath the Major and Minor Grid spacing fields provide additiona
 
 You can also edit the note and other metadata of a canvas itself. Just click the canvas in the sidebar and then use the Canvas Data inspector to add metadata for the canvas.
 
-![The Canvas Data Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_20_canvasdatainspector.png)
+![The Canvas Data Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_20_canvasdatainspector.png)
 
 As with the data added using the Properties Note inspector, this information is used primarily for indexing and doesn’t affect the appearance of your OmniGraffle document in any way.
 
@@ -374,22 +374,22 @@ Use the **Fill Type** pop-up (the big button on the left) to select from one of 
 Hierarchical
 :   The hierarchical layout creates layers of equally-ranked objects, extending in one direction.
 
-![The Diagram Layout Inspector, showing the options for a Hierarchical layout](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_21_diagramlayoutinspector.png)
+![The Diagram Layout Inspector, showing the options for a Hierarchical layout](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_21_diagramlayoutinspector.png)
 
 Force-directed
 :   The force-directed layout grows in semi-random directions from the center, rather than in one particular direction from the edge.
 
-![The Diagram Layout Inspector, showing the options for a Force-directed layout](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_21_diagramlayout_forcedirected.png)
+![The Diagram Layout Inspector, showing the options for a Force-directed layout](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_21_diagramlayout_forcedirected.png)
 
 Circular
 :   The circular layout tries to arrange sibling shapes in a circle around their parent.
 
-![The Diagram Layout Inspector, showing the options for a Circular layout](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_21_diagramlayout_circular.png)
+![The Diagram Layout Inspector, showing the options for a Circular layout](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_21_diagramlayout_circular.png)
 
 Radial
 :   The radial layout tries to arrange sibling shapes in arcs around their parent.
 
-![The Diagram Layout Inspector, showing the options for a Radial layout](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_21_diagramlayout_radial.png)
+![The Diagram Layout Inspector, showing the options for a Radial layout](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_21_diagramlayout_radial.png)
 
 When you use a hierarchical layout:
 
@@ -422,7 +422,7 @@ File package
 
 In some technical cases, it might be desirable to use one type or the other; if you don’t even know why this should matter, it’s safe to stick with the Automatic setting.
 
-![The Format Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_22_formatinspector.png)
+![The Format Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_22_formatinspector.png)
 
 Normally OmniGraffle documents are “property list”–based text files. If you turn on **Compress on disk**, your file is instead saved in a binary format that takes up less space on the disk but whose innards can’t be read by scripts or text editors. If you don’t need to open an OmniGraffle document with a text editor, just go ahead and compress your files. This won’t hurt anything; it just makes the filesize a wee bit smaller.
 
@@ -430,13 +430,13 @@ Normally OmniGraffle documents are “property list”–based text files. If yo
 
 Here you can specify your own page margins, or choose **Use printer margins** to default to the margins defined by your printer driver (or by any custom settings you’ve made in **File \> Page Setup**).
 
-![The Margins Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_23_marginsinspector.png)
+![The Margins Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_23_marginsinspector.png)
 
 ### Storing Information About your Document in the Data Inspector {#TheDataInspector}
 
 The Document Data inspector has fields for lots of information about your document, in case you care to keep track of such things. The available fields are Subject, Copyright, Version, Description, and Comments. The pop-up menu includes options for adding information about the document’s Authors, Organizations, Languages, Keywords, and Projects.
 
-![The Document Data Inspector](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_inspectors_24_documentdatainspector.png)
+![The Document Data Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_24_documentdatainspector.png)
 
 All of this data is made available to OS X’s Spotlight searching feature, to help you find the diagram you’re looking for.
 
@@ -444,7 +444,7 @@ All of this data is made available to OS X’s Spotlight searching feature, to h
 
 A stencil is a set of useful objects that you can drag into your diagrams. To see the available stencils—or any you’ve added—choose **View \> Show Inspector \> Stencils Library** (**⌘–6**), or click the rightmost button at the top of the Inspector sidebar.
 
-![The default top-level view of the Stencils Library](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_stencils_01_defaultview.png)
+![The default top-level view of the Stencils Library](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_stencils_01_defaultview.png)
 
 -   Navigate through the hierarchy of your stencil collection using the back and forward buttons.
 
@@ -468,7 +468,7 @@ To edit a stencil, open it in the Resource Browser (**Shift-⌘-N**). Then edit 
 
 At the bottom of the Inspector sidebar, you’ll find a tray which contains style “chits” for the selected object.
 
-![The Style Tray](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_styletray.png)
+![The Style Tray](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_styletray.png)
 
 The isolated chit on the left represents all of the styles applied to the selected object, while the rest of the chits represent each of the styles applied to the object, such as fill, stroke, image, shadow, shape, font, and text position. Drag any of these chits to another object, to a group in the Selection inspector, or to a tool in the tool palette, to copy the style there.
 
@@ -485,7 +485,7 @@ You can use a combination of ruler guides and OmniGraffle’s Smart Guides to po
 
 By default, the very upper-left corner of a canvas is known as its *origin* (that is, the point from which all ruler measurements originate, and the coordinates are 0,0). To change the origin, click and drag the origin from the corner where the rulers meet. (Alternatively, you can enter **Origin** values in the **Units** Canvas inspector.) The coordinates in the Geometry inspector are based on this origin point.
 
-![The origin point can be dragged out to any other position on the canvas](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_ruleroriginpoint.png)
+![The origin point can be dragged out to any other position on the canvas](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_ruleroriginpoint.png)
 
 To reset the origin to the 0,0 position, just click on the origin point between the two rulers. Click the origin point again and the origin point will change to its previous position.
 
@@ -493,7 +493,7 @@ When editing text, tab stops appear on the ruler and text formatting controls ap
 
 When you aren’t editing text, the area above the ruler—the Inspector Bar—contains controls for editing basic attributes of selected objects:
 
-![Rulers and Inspector bar](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_rulersandinspectorbar_01.png)
+![Rulers and Inspector bar](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_rulersandinspectorbar_01.png)
 
 1.  **Horizontal Object Position** — the object’s position from the left origin point.
 2.  **Vertical Object Position** — the object’s position from the top origin point.
@@ -526,7 +526,7 @@ OmniGraffle comes with several templates, and you can create your own if you fin
 
 To open a template, choose **File \> Resource Browser** (**Shift-⌘-N**) and select one of the available Templates.
 
-![Choose a template from the Resource Browser](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_resourcebrowser_templates.png)
+![Choose a template from the Resource Browser](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_resourcebrowser_templates.png)
 
 When you select a template in the Resource Browser, you’ll notice that the right side of the window reveals a little more detail about the template. If you find that you’re using a particular template often, click **Make Default** to specify the selected template as the default.
 
@@ -559,13 +559,13 @@ All templates end with a *.gtemplate* file extension.
 
 A standard feature among Mac apps, OmniGraffle’s preferences can be accessed from the menu bar (**OmniGraffle \> Preferences**), or with the **⌘-,** keyboard shortcut.
 
-Two features that all of the preference panes offer are the ability to **Reset** (![The Reset button](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_button_reset.png)) any changes you’ve made to the defaults settings, and quick access to **Help** (![The Help button](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_button_help.png)) documentation for that pane.
+Two features that all of the preference panes offer are the ability to **Reset** (![The Reset button](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_button_reset.png)) any changes you’ve made to the defaults settings, and quick access to **Help** (![The Help button](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_button_help.png)) documentation for that pane.
 
 ### General Preferences {#GeneralPreferences}
 
 The General preferences give you control over basic OmniGraffle settings, such as what OmniGraffle does at startup, whether new documents open with a blank canvas or you’re taken to the template chooser, and things like text editing and selection behaviors. You can also turn on Multi-Touch support for trackpad support, and opt for OmniGraffle to only show you the inspectors you need when you’re working in the canvas.
 
-![OmniGraffles General preference pane](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_prefs_general.png)
+![OmniGraffles General preference pane](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_prefs_general.png)
 
 Options include:
 
@@ -598,7 +598,7 @@ Preferences Reset button
 
 The Drawing Tools preferences provides you with another way to organize the tools you see in OmniGraffle’s toolbar and set their Hot Keys. You can also define how you interact with the tools, and set the behaviors for line creation and editing.
 
-![OmniGraffles Drawing Tools preference pane](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_prefs_drawingtools.png)
+![OmniGraffles Drawing Tools preference pane](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_prefs_drawingtools.png)
 
 You can drag tools around in the list to reorder them in the palette. Move the separator line to change where the expansion button appears in the toolbar; move it to the end of the list to get rid of the button entirely.
 
@@ -617,7 +617,7 @@ Line Editing
 
 Available only in OmniGraffle Professional, use the Presentation preferences to configure your settings for making presentations.
 
-![OmniGraffles Presentation preference pane](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_prefs_presentation.png)
+![OmniGraffles Presentation preference pane](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_prefs_presentation.png)
 
 Highlight Behavior
 :   Choose whether to have an object become highlighted whenever you put the pointer on it, whenever you click it, or never. You can also choose to display a badge for objects that have actions set up in the Action inspector.
@@ -635,7 +635,7 @@ The Update Preferences panel doesn't exist if you have purchased OmniGraffle 6 f
 
 You can specify whether OmniGraffle will automatically check for updates Daily, Weekly, or Monthly, or if you’re really impatient, you can click **Check for Updates Now** to see if we’ve issued a new release. This is particularly helpful if you have **Check for updates** set to check Monthly and you’ve recently heard that a new update is available.
 
-![OmniGraffles Update preferences](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_prefs_update.png)
+![OmniGraffles Update preferences](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_prefs_update.png)
 
 If **Check for updates** is turned on, you will be notified when there is a new version of OmniGraffle ready for you to download and enjoy. Click **Check for Updates Now** to look for the newest version manually; you can also choose **OmniGraffle \> Check for Updates** from the menu bar.
 

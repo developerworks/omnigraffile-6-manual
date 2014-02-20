@@ -2,7 +2,7 @@
 
 Sure, it’s still the same great chart-drawing, prototyping, wireframing app you’ve grown to love and adore, but we’ve pulled out the stops with OmniGraffle 6. The biggest change you’ll notice is a new unified user interface, so let’s dive in with a quick overview.
 
-![Meet OmniGraffle 6](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_interface_with_callouts.png)
+![Meet OmniGraffle 6](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_interface_with_callouts.png)
 
 1.  The **toolbar** provides easy access to the controls of your choosing. Choose **View \> Customize Toolbar** (or **Control-click**) on the toolbar to arrange your favorite tools. Most importantly, the toolbar is home to the Tool Palette which you’ll use to create diagrams and such. To hide or show the toolbar, choose **View \> Hide Toolbar** or **View \> Show Toolbar**, respectively.
 2.  The **sidebar** combines the Canvases and Outline sidebars from OmniGraffle 5 into a single sidebar with **Canvases** at the top and the **Contents** viewer below. You can resize these panes to suit your needs, and the benefit for you is more space within the **Canvas** so you can focus on your work.
