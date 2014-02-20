@@ -176,4 +176,4 @@ To disassemble a subgraph, select it and choose **Arrange \> Ungroup** (**Shift-
 
 Finally, the various arrow shapes in OmniGraffle 6 have some smart behavior, whether they are connecting shapes or not. When you resize an arrow shape, it tries to keep its arrowheads the same size, rather than stretching them along with the rest of the shape. If you want to change the size of the arrowheads or the thickness of the stem, click the blue handle in the crook of the arrowhead and drag.
 
-[Home](index.html) [A Quick Tutorial 〉](index11_tutorial.html)
+[主页](index.html) [A Quick Tutorial 〉](index11_tutorial.html)
