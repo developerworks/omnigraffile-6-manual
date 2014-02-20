@@ -1,4 +1,4 @@
-# What’s New in OmniGraffle 6 {#WhatsNewInOmniGraffle6}
+# OmniGraffle 6 新特性 {#WhatsNewInOmniGraffle6}
 
 ![OmniGraffle 6s application icon](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_icon.png)
 
@@ -26,23 +26,23 @@ Some additional changes we’ve made include (but certainly aren’t limited to)
 
 These new features, combined with file synchronization with OmniPresence and Omni Sync Server, make this an incredible update worthy of a whole number.
 
-**What's Extra in Pro?**\
+**What's Extra in Pro?**
  OmniGraffle 6 Pro, available via In-App Purchase includes a lot of advanced features that might not be needed by everyone. OmniGraffle 6 Professional features include:
 
--   AppleScript support
+-   AppleScript 支持
 -   Geometry left-center-right
 -   Vertex Point Geometry
 -   Note tooltip preferences
--   Canvas zoom options
--   Import Xcode projects
--   Share layers between canvases
--   Combine shapes
--   Add Notes and custom data
--   Create tables
+-   画布缩放选项
+-   导入Xcode项目
+-   在画布之间共享层
+-   合并形状
+-   添加注解和自定义数据
+-   创建表格
 -   Multiple editing windows
 -   Subgraph support
--   Visio® Support
--   Presentation Mode
+-   Visio® 支持
+-   演示模式
 -   Pro export options
 
 Throughout this guide, we’ll call attention to the features exclusive to OmniGraffle 6 Pro in a little box like this one. All of the other features are available in both the Standard and the Prof editions of OmniGraffle.
