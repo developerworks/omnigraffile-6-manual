@@ -544,4 +544,4 @@ Release Notes
 Send Feedback
 :   Choose this to start an email message to the OmniGraffle support folks. This is the best way to get in touch with us; your version number and license information are automatically entered in the subject field, which helps us help you help yourself. Or something.
 
-[Home](index.html) [Getting Help 〉](index14_getting_help.html)
+[主页](index.html) [Getting Help 〉](index14_getting_help.html)
