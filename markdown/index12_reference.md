@@ -201,4 +201,4 @@ Regular expressions are very popular, so you should be able to find plenty of in
 -   `\S+@\S+` — very liberally matches things that resemble email addresses (*anything@anything*).
 -   `(19|20)\d\d-\d\d?-\d\d?` — matches dates in the format YYYY-MM-DD, between 1900 and 2099
 
-[Home](index.html) [Every Single Menu Command 〉](index13_menucommands.html)
+[主页](index.html) [Every Single Menu Command 〉](index13_menucommands.html)
