@@ -2,7 +2,7 @@
 
 Along the top of OmniGraffle’s window is the **Toolbar**. Packed with buttons and a customizable Tool Palette featuring *Expando-Collapso Technology*, the toolbar is where you’ll go for all your drawing needs.
 
-![OmniGraffles toolbar with callouts for the different buttons, including sidebar controls and the tool palette](HelpImages/og6_toolbar_with_callouts.png)
+![OmniGraffles toolbar with callouts for the different buttons, including sidebar controls and the tool palette](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_toolbar_with_callouts.png)
 
 As you can see, the toolbar is packed with the controls you need to help you get your job done. From buttons to add new layers to a canvas—or an entirely new canvas—to the tools you need for drawing and connecting objects together.
 
@@ -18,7 +18,7 @@ But the big tools are coming up next: the *Style Well* and the *Tool Palette*.
 
 With the Shape, Line, Text, or Pen tool selected, a style menu for the applicable tool becomes available from the button to the left of the Selection tool. It contains various styles that you can apply to the tool itself.
 
-![The style menu](HelpImages/og6_toolpalette_stylemenu.png)
+![The style menu](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_toolpalette_stylemenu.png)
 
 The very top item in the menu, **Current Style**, is the last style you set. Other sections you may see include:
 
@@ -34,7 +34,7 @@ The very top item in the menu, **Current Style**, is the last style you set. Oth
 
 The **Tool Palette** contains all of the tools that you need to draw and interact with objects on the Canvas. In its default state, the Tool Palette contains the following tools:
 
-![The Tool Palette (unexpanded)](HelpImages/og6_toolpalette_default.png)
+![The Tool Palette (unexpanded)](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_toolpalette_default.png)
 
 Selection Tool (Arrow)
 :   Used for selecting objects on the Canvas.
@@ -49,7 +49,7 @@ Pen Tool
 Expando-Collapso
 :   Click this button to expand the Tool Palette to reveal even more awesome tools…
 
-![The Tool Palette (expanded)](HelpImages/og6_toolpalette_expanded.png)
+![The Tool Palette (expanded)](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_toolpalette_expanded.png)
 
 Diagram
 :   Used to rapidly create new objects on the canvas.
@@ -70,9 +70,9 @@ See *Using the Tools* for in-depth coverage on each of the tools in the Tool Pal
 
 ### Persistent Tool Activation {#PersistentToolActivation}
 
-![The Shape tool with a single activation](HelpImages/og6_toolpalette_shape_selected.png) By default, clicking a tool once activates it for a single use; after that one use the **Selection** tool becomes active again. When you select a tool in the toolbar, the button takes on a light gray background to indicate that the tool is active.
+![The Shape tool with a single activation](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_toolpalette_shape_selected.png) By default, clicking a tool once activates it for a single use; after that one use the **Selection** tool becomes active again. When you select a tool in the toolbar, the button takes on a light gray background to indicate that the tool is active.
 
-![The persistently activated Shape tool](HelpImages/og6_toolpalette_shape_persistent.png) However, if you double-click on a tool, it becomes the permanently active tool until you switch to another tool. The tool button takes on a dark gray background to indicate that the tool is persistent.
+![The persistently activated Shape tool](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_toolpalette_shape_persistent.png) However, if you double-click on a tool, it becomes the permanently active tool until you switch to another tool. The tool button takes on a dark gray background to indicate that the tool is persistent.
 
 You can change this behavior in the **Drawing Tools** preferences, so that tools are always (or never) activated persistently.
 
@@ -90,7 +90,7 @@ As noted earlier, the Toolbar comes packed with a variety of tools by default. H
 
 To customize the toolbar, choose **View \> Customize Toolbar** or **Control-click** on the toolbar and select **Customize Toolbar**. When you do, a sheet slides down from under the toolbar, revealing a slew of function-related buttons that you can drag up to the toolbar. For example, you could add the **Make Table** or **Start Presentation** buttons to the toolbar if you’ve purchased OmniGraffle 6 Professional.
 
-![Customize OmniGraffles toolbar to suit the way you work](HelpImages/og6_customizeToolbarSheet.png)
+![Customize OmniGraffles toolbar to suit the way you work](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_customizeToolbarSheet.png)
 
 If you don’t like the changes you’ve made, or if you ever want to reset the toolbar to it’s default state, all you need to do is drag the bottom row up to the toolbar. When you’ve finished making changes to the toolbar, click **Done**.
 

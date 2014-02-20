@@ -1,6 +1,6 @@
 # What’s New in OmniGraffle 6 {#WhatsNewInOmniGraffle6}
 
-![OmniGraffle 6s application icon](HelpImages/og6_icon.png)
+![OmniGraffle 6s application icon](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_icon.png)
 
 OmniGraffle 6 has new and re-designed features to make graffling even easier. If you’ve been a long-time OmniGraffle user, it won’t take long before you notice some changes.
 

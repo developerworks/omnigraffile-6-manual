@@ -2,7 +2,7 @@
 
 On the left side of OmniGraffle’s window is the **Sidebar**. In earlier versions of OmniGraffle, there were actually two sidebars on the left: one for **Canvases** and another for **Contents**.
 
-![The Sidebar](HelpImages/og6_sidebar.png)
+![The Sidebar](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_sidebar.png)
 
 In OmniGraffle 6, however, these two sidebars were combined into one that’s split in half with Canvases on top, and Contents below. This split-level sidebar gives you more room to work with on the Canvas, while still giving you access to your project’s canvases, layers, and the contents editors in one convenient place. Hover over the sidebar just above the **Contents** section and the pointer changes to a resize control; click and drag up or down to make one
 
@@ -21,7 +21,7 @@ To work on a Canvas, select the canvas by either clicking its name or the previe
 
 Each Canvas has a title, a disclosure triangle for showing its layers, and a preview image:
 
-![The Canvases portion of the left sidebar](HelpImages/og6_canvas_sidebar01.png)
+![The Canvases portion of the left sidebar](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_canvas_sidebar01.png)
 
 -   To select a canvas, click its name or the preview image. The canvas appears in the document window, where you can add and edit objects.
 -   To rename a canvas, double-click its name in the sidebar.
@@ -45,7 +45,7 @@ When you’re working on the Canvas, one of the more common ways to align object
 
 If you click on the **Guides** icon (the pink square to the right of each canvas), you’ll find OmniGraffle 6’s new Guides pop-up. To add a new guide, just click **+**; new guides are spaced apart evenly, or you can enter a specific value to position the guide exactly where you need it.
 
-![Position the guides on your canvas](HelpImages/og6_menu_guides.png)
+![Position the guides on your canvas](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_menu_guides.png)
 
 Using any of the color wells, you can choose a default color for your guides, or set their colors individually. This is particularly helpful when you have a background image with varying colors (such as a gradient) that might clash with an otherwise default guide color.
 
@@ -55,13 +55,13 @@ Using the icons in the upper-right corner of the Guides pop-up, you can also tog
 
 Layers contain all of the fine details about your Canvases. Each Canvas starts out with one layer, but you can add as many new layers as you need to make it easy for you to keep track of certain objects or blocks of text.
 
-![Layers let you fine-tune your project](HelpImages/og6_layers01.png)
+![Layers let you fine-tune your project](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_layers01.png)
 
 By default, the layers are hidden beneath a disclosure triangle. To see all of the layers in your Canvas, click the disclosure triangle to flip it open; click it again to hide the layers.
 
 Each layer in the list has a small **Preview icon** of its contents, a **Title**, and a row of four icons underneath the title.
 
-![An overview of the icons associated with a layer](HelpImages/og6_layer_callouts.png)
+![An overview of the icons associated with a layer](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_layer_callouts.png)
 
 The layer you are currently editing has a **Pencil icon** to its left. To edit a different layer, just click to the left of its preview and the pencil icon moves there.
 
@@ -98,11 +98,11 @@ To share a layer between canvases, select the layer and then:
 
 When a layer is shared, the title turns orange and an orange tint is added to the layer’s preview image.
 
-![Shared layers have an orange-colored title and an orange tint is applied to its preview icon](HelpImages/og6_sharedlayer.png)
+![Shared layers have an orange-colored title and an orange tint is applied to its preview icon](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_sharedlayer.png)
 
 To create a new shared layer:
 
--   Choose **New Shared Layer** from the **Action Menu** at the bottom of the canvases sidebar. ![The Action pop-up menu button](HelpImages/og6_canvasesandlayers_actionbutton.png)
+-   Choose **New Shared Layer** from the **Action Menu** at the bottom of the canvases sidebar. ![The Action pop-up menu button](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_canvasesandlayers_actionbutton.png)
 -   Choose **Edit \> Layers \> New Shared Layer**
 
 After creating (or designating an existing layer as) a new shared layer:
@@ -125,7 +125,7 @@ There is also a **Delete [*layer name*] from All Canvases** option that, when ch
 
 The Contents portion of the Sidebar offers three different ways to create, view, and edit the objects in your projects: List View, Outline Editor, and Selection Matrix.
 
-![The Contents portion of the sidebar](HelpImages/og6_contents_sidebar_callouts.png)
+![The Contents portion of the sidebar](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_contents_sidebar_callouts.png)
 
 To switch between the different sections of the Contents sidebar, you can either click on the buttons in the header row for the Contents sidebar, or:
 
@@ -147,19 +147,19 @@ As you select an object in the Contents section, the Inspectors (see the *Inspec
 
 List View shows you every object on every layer of the current canvas, in front to back order.
 
-![List View](HelpImages/og6_listview.png)
+![List View](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_listview.png)
 
 Within that list, you can drag objects into different ordering or from one layer to another.
 
 In the General preferences, you can choose to display the object ID numbers along with the items in List View, which can be useful for scripting.
 
-![If youre using AppleScript along with OmniGraffle, you can turn on Object IDs so you can interact with objects in your project.](HelpImages/og6_listview_objID.png)
+![If youre using AppleScript along with OmniGraffle, you can turn on Object IDs so you can interact with objects in your project.](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_listview_objID.png)
 
 ### The Outline Editor {#TheOutlineEditor}
 
 The Outline Editor gives you a quick way to enter lots of data, and an alternate way to look at hierarchical diagrams. The outline shows any shapes you’ve created on the canvas, arranged hierarchically according to the lines that connect them. Likewise, as you enter text into the outline, shapes are automatically created and connected on the canvas with corresponding text.
 
-![The Outline Editor](HelpImages/og6_outlineeditor.png)
+![The Outline Editor](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_outlineeditor.png)
 
 To start working in the outline, just click an existing item, or double-click in an empty area to create a new item. While you work in the Outline Editor, the following keys can be used to create and arrange items:
 
@@ -175,7 +175,7 @@ An item can be dragged around the outline view by its handle, the dot or triangl
 
 A group, table, or subgraph on the canvas is shown as a single item in the outline, surrounded by brackets. Click the arrows on the right side of the item to see the objects inside and edit their text.
 
-![The cells of a table are grouped together in the Outline Editor; just click the arrow at right to see all of the tables contents.](HelpImages/og6_outlineview_table.png)
+![The cells of a table are grouped together in the Outline Editor; just click the arrow at right to see all of the tables contents.](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_outlineview_table.png)
 
 While the Outline Editor is handy for entering lots of information quickly, an outline can’t always perfectly represent the relationships in a complicated diagram. Objects with more than one parent, lines connected to other lines, and circular ancestry (*“I’m my own grandpa!”*) are all examples of the kinds of things a simple outline can’t properly show. In these cases, the Outline Editor tries its best to be accurate. If your diagram is not strictly tree-like, you probably shouldn’t rely too much on the Outline Editor if what you need is a quick representation of the objects’ relationships.
 
@@ -185,11 +185,11 @@ The Selection Matrix provides an alternative organization scheme for the objects
 
 Along the top of the Selection Matrix is a row of buttons that look oddly familiar. No, they’re not the symbols you’d expect to see on a football coach’s chalkboard during halftime, these relate to the styles you can set for the objects on the Canvas.
 
-![The Selection Matrix](HelpImages/og6_selectionmatrix_callouts.png)
+![The Selection Matrix](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_selectionmatrix_callouts.png)
 
 All of these are on by default, and this gives you the finest level of granularity when evaluating your objects. But as you turn one—or all—of them off, you’ll notice that the previews in the Selection Matrix become more compact.
 
-![Turn all of the styles off to get a more compact view of your projects objects](HelpImages/og6_selectionmatrix_01.png)
+![Turn all of the styles off to get a more compact view of your projects objects](https://github.com/developerworks/omnigraffile-6-manual/blob/master/images/og6_selectionmatrix_01.png)
 
 Click on a class of objects in the matrix to select them all for manipulation, or select them individually in the main view.
 
