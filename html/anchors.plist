@@ -1,0 +1,17 @@
+{
+	// Preferences
+    "anchor:generalpreferences" = "index07_theinspectors.html#GeneralPreferences";
+    "anchor:drawingtoolspreferences" = "index07_theinspectors.html#DrawingTools";
+    // "anchor:presentationmode" = "index07_theinspectors.html#PresentationPreferences";
+    "anchor:updatepreferences" = "index07_theinspectors.html#UpdatePreferences";
+
+	// Licenses
+    "anchor:licensing" = "index09_reference.html#Licensing";
+
+	// Resource Browser
+    // "anchor:templatechooser" = "";
+
+    // Menu Items
+    // "anchor:WhatIsNewInVersion6" = "";
+    // "anchor:WhatIsExtraInPro" = ""; // Need content similar to http://www.omnigroup.com/products/omnigraffle/features/#comparison_link
+}

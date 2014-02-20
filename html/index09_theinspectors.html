@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>OmniGraffle 6: The Inspectors</title>
+	<meta name="author" content="The Omni Group"/>
+	<meta name="copyright" content="The Omni Group"/>
+	<meta name="date" content="September 2013"/>
+	<meta name="version" content="6.0"/>
+	<link rel="stylesheet" type="text/css" href="tog_help.css">
+</head>
+<body>
+
+<div id="pagewrap">
+<h1 id="TheInspectors">The Inspectors (The Other Sidebar)</h1>
+
+<p>
+Along the right side of the window, you&#8217;ll find the <strong>Inspectors</strong> sidebar. You use the Inspectors to change the style attributes for the objects on the Canvas, or set the properties of the Canvas itself. If you don&#8217;t see them, click the <strong>Inspect</strong> button in the toolbar, or choose <strong>View &gt; Show Inspectors</strong> (<strong>Shift-&#8984;-I</strong>) from the menu bar.
+</p>
+
+<p>
+The Inspectors sidebar contains five inspectors&#8212;Object, Type, Properties, Canvas, and Document&#8212;and the <strong>Stencils Library</strong>, which used to have its own floating palette in earlier versions of OmniGraffle. Inspectors are grouped by the type of content they govern. You can browse the various Inspector categories by clicking the icons along the top of the sidebar. Within each Inspector, you&#8217;ll find multiple, collapsable inspectors for changing the properties of an object.
+</p>
+
+<p>
+To open an Inspector, hover over the title with the mouse, and then click on the disclosure triangle to open and use the inspector. To open one particular inspector (for example the <strong>Stroke</strong> inspector) any other open inspectors, <strong>Shift-Option-click</strong> on the disclosure triangle. To open or close all of the inspectors, <strong>Shift-&#8984;-click</strong> on one of the disclosure triangles.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_useof.png" alt="Click the title of an inspector thats closed to open it up" id="og6_inspectors_useof" />
+</figure>
+
+<h2 id="UsingTheInspectors">Using the Inspectors</h2>
+
+<p>
+If you find that you&#8217;re using a particular Inspector section quite a bit, you can lock it in the open position. Just double-click the Inspector&#8217;s button instead of single-clicking it; the button gets a green lock icon. As you show and hide other sections in the same inspector window, the locked section remains visible. When you&#8217;re done, just double-click the button again and the lock icon goes away. The lock also goes away when you switch to another Inspector; for example, from a locked Object inspector to the Type inspector.
+</p>
+
+<p>
+In all of the inspectors, you can click in a text field that contains a number, and then press the up or down arrow keys to increment or decrement the number. Also, once you click a circular rotation control, you can keep the mouse button held down while moving the pointer away from the control to gain more rotational precision.
+</p>
+
+<p>
+Any color well can have its color dragged to an object on the canvas or to another color well. When you drag to an object, you can drop the color on the object&#8217;s stroke, fill, or text.
+</p>
+
+<p>
+In places where you can enter measurements, such as in the Geometry inspector, values are shown in the current ruler units, or, if there is no unit scale, in the canvas units. You can, however, enter values in any units that are available in the ruler, such as miles or kilometers. As soon as you finish entering the value, OmniGraffle converts it to the correct units automatically.
+</p>
+
+<p>
+You can also perform simple arithmetic and mix units. Add (<strong>+</strong>), subtract (<strong>&minus;</strong>), multiply (<strong>&#42;</strong>), or divide (<strong>&#47;</strong>) numbers right in the input fields.
+</p>
+
+<h2 id="ObjectInspectors">Object Inspectors</h2>
+
+<p>
+Use the <strong>Object inspectors</strong> to view and change details about the objects on the Canvas.
+</p>
+
+<h3 id="TheFillInspector">Coloring Shapes with the Fill Inspector</h3>
+
+<p>
+Use the Fill inspector to choose a color or gradient to fill the inside of the selected shapes.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_01_fillinspector.png" alt="The Fill Inspector" id="og6_inspectors_01_fillinspector" />
+</figure>
+
+<ul>
+<li><p>
+Use the pop-up menu on the left side of the inspector to choose from the nine kinds of fill: Solid, Linear Blend, Radial Blend, Double Linear Blend, Double Radial Blend, Stipple, Marker, and Squiggle. No Fill is also available as an option for objects where transparency is desired.
+</p></li>
+<li><p>
+The blend rotation control becomes active when you choose a linear blend; enter a number of degrees in the field or drag the circular control to set the angle of the gradient. The blend position control becomes active when you choose a radial gradient; drag its crosshair to move the gradient&#8217;s center.
+</p></li>
+<li><p>
+Click the color well to choose the color of the fill.
+</p></li>
+<li><p>
+If you have chosen a two-color blend, you can click the swap button to exchange the two colors.
+</p></li>
+<li><p>
+If you choose a blend, two or three color wells become available. Click them to choose the colors to blend together.
+</p></li>
+<li><p>
+Drag the bias slider on the far right to shift a blend toward one side or the other.
+</p></li>
+</ul>
+
+<p>
+You can also edit the fill color of a canvas itself using the Canvas Fill inspector.
+</p>
+
+<p>
+<em>PRO</em> OmniGraffle Pro offers an extra section in the Color panel for creating pattern fills.
+</p>
+
+<h3 id="TheStrokeInspector">The Stroke Inspector</h3>
+
+<p>
+Use the Stroke inspector to change the appearance of the selected connection lines or of the line drawn around the edge of the selected shapes.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_02_strokeinspector.png" alt="The Stroke Inspector" id="og6_inspectors_02_strokeinspector" />
+</figure>
+
+<ul>
+<li><p>
+Use the dropdown menu to choose a single stroke, double stroke, freehand stroke, or no stroke at all.
+</p></li>
+<li><p>
+Click the color well to choose a color for the stroke.
+</p></li>
+<li><p>
+Enter a number in the Thickness field or use the keyboard arrows to choose how thick the stroke should be.
+</p></li>
+<li><p>
+The first of the three pop-up menus determines the stroke pattern (solid, dashed, dotted, et cetera). The center pop-up menu determines how the stroke appears at its ends: The Butt option ends the line by cutting across its endpoint at an angle perpendicular to the line itself, while the Round and Square options let the line extend past its endpoint based on the stroke width. The third pop-up menu determines how the stroke appears at its corners: Miter creates a sharp corner, Round creates a soft corner, and Bevel creates a cut-off corner.
+</p></li>
+</ul>
+
+<h3 id="TheShadowInspector">Making Objects Cast Shadows with the Shadow Inspector</h3>
+
+<p>
+Use the Shadow inspector to drop a shadow behind the selected objects.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_03_shadowinspector.png" alt="The Shadow Inspector" id="og6_inspectors_03_shadowinspector" />
+</figure>
+
+<ul>
+<li><p>
+Click the leftmost button to choose whether the selected object has a shadow, and if the shadow appears in front of objects or behind objects on the same layer. If you choose to let shadows appear in front of objects on the same layer, the ordering of objects matters; you can reorder objects with the Bring and Send commands in the Arrange menu.
+</p></li>
+<li><p>
+Enter a number in the blur field or use the keyboard arrows to choose how precise or blurry the shadow should be.
+</p></li>
+<li><p>
+Drag the crosshair in the offset control or enter numbers in the offset fields to set how far away from the object the shadow should fall.
+</p></li>
+<li><p>
+Click the color well in the upper-right to choose a color for the shadow; partially transparent black tends to work best.
+</p></li>
+</ul>
+
+<h3 id="TheShapesInspector">The Shapes Inspector</h3>
+
+<p>
+If you have a shape object selected, use this inspector to transform it in various ways.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_04_shapesinspector.png" alt="The Shapes Inspector" id="og6_inspectors_04_shapesinspector" />
+</figure>
+
+<ul>
+<li><p>
+To change the shape to another, the upper right button provides a grid containing available shapes. It includes all of OmniGraffle&#8217;s built-in shapes plus all of the current canvas&#8217;s custom shapes (ones created with the pen tool or shape combinations).
+</p></li>
+<li><p>
+Use the Corner Radius field to set how round the corners of the shape should be; enter 0 for perfectly pointy corners.
+</p></li>
+<li><p>
+(<strong>Pro</strong>) With multiple shapes selected, use the Combine Shapes button as an alternative tool for crafting custom shapes. Available actions include Unite Shapes, Intersect Shapes, Subtract Shapes, and Uncombine Shapes. OmniGraffle will do its best to preserve all data associated with the combined objects, but some (text in particular) may be lost when the Uncombine Shapes action is used.
+</p></li>
+<li><p>
+(<strong>Pro</strong>) Check the Edit Points checkbox to convert the shape to a custom object with editable B&eacute;zier points.
+</p></li>
+</ul>
+
+<h3 id="TheLinesInspector">The Lines Inspector</h3>
+
+<p>
+Use this inspector to configure the properties of a selected line.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_05_linesinspector.png" alt="The Lines Inspector" id="og6_inspectors_05_linesinspector" />
+</figure>
+
+<ul>
+<li><p>
+The three pop-up menus determine the style of the tail, middle, and head of the line. Use the tail and head menus to set the line endings. Use the middle menu to set how the line travels from its source to its destination: Straight for a line that takes the shortest possible path between points, Curved for a line that turns smoothly to pass through each point, Orthogonal for a line that always travels horizontally or vertically, or B&eacute;zier for a line with control points you can adjust with the selection tool.
+</p></li>
+<li><p>
+Use the fields below the tail and head menus to change the line ending sizes. Click the reverse button to swap the line&#8217;s source and destination points.
+</p></li>
+<li><p>
+Click Remove Midpoints to get rid of all points between the source and destination points.
+</p></li>
+<li><p>
+The Line Hops menu determines what the line should do when it crosses other lines; choose one of the hop types to make the line jump over or under other lines, or choose Ignore this line to prevent other lines from hopping over or under it. The hops depend on the ordering of the lines involved; you can reorder objects with the Bring and Send commands in the Arrange menu.
+</p></li>
+</ul>
+
+<h3 id="TheImageInspector">Placing Graphics Inside a Shape with the Image Inspector</h3>
+
+<p>
+You can use this inspector to position an image inside a shape. (Note that instead of creating an object and then adding an image, you could also simply drag an image file from another application straight onto the canvas.)
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_06_imageinspector.png" alt="The Image Inspector" id="og6_inspectors_06_imageinspector" />
+</figure>
+
+<ul>
+<li><p>
+Use the Image pop-up menu to set an image in the selected shape. Once an image is set, a Remove Image command appears in the menu.
+</p></li>
+<li><p>
+When you browse for an image file, you have the option of creating an alias (or &#8220;link&#8221;) to the image instead of adding the image to the OmniGraffle file itself. If you do this, the OmniGraffle document depends on the original image file; the alias will not work if you delete the image file or open the document on a different computer. If an object&#8217;s image comes from an alias, some extra commands become available in the Image pop-up menu: you can Open the original image file, Reveal the original file in the Finder, or stop using the alias and Embed a copy of the image in the OmniGraffle document.
+</p></li>
+<li><p>
+Another way to set an image is just to drag an image file from another application and drop it on the image well, or on the shape object itself.
+</p></li>
+<li><p>
+The first button displays the image at its natural aspect ratio, with a zoom level and position as set with the controls below. The second button makes the image stretch to fit inside the object. The third button makes the image tile indefinitely across the object.
+</p></li>
+<li><p>
+The positioning offsets are enabled if you are displaying the image at its natural aspect ratio, as set by the first of the three buttons above. You can type a positive or negative percentage, or just drag the image around in the image well to indicate the area you want.
+</p></li>
+<li><p>
+The zoom controls are available unless you are stretching the image to fit the shape. You can enter a zoom percentage, or just drag the slider, to make the image larger or smaller.
+</p></li>
+<li><p>
+You can make the image transparent and let the object&#8217;s fill show through by decreasing the value of the opacity field, or by dragging the opacity slider.
+</p></li>
+</ul>
+
+<h3 id="TheGeometryInspector">Changing Object Position and Size with the Geometry Inspector</h3>
+
+<p>
+This inspector deals with an object&#8217;s position and orientation.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_07_geometryinspector.png" alt="The Geometry Inspector" id="og6_inspectors_07_geometryinspector" />
+</figure>
+
+<ul>
+<li><p>
+To rotate the object, enter a degree value in the rotation field, or drag the circular control.
+</p></li>
+<li><p>
+The top two fields contain the X and Y (horizontal and vertical) coordinates for the selected objects; the value represents the distance between the canvas&#8217;s origin and the upper-left corner of the object (which might not be obvious if the object is rotated or flipped). If you have multiple objects selected, two hyphens (<strong>- -</strong>) appear in the fields that have different values. Enter a new X or Y value to move an object on the canvas.
+</p></li>
+<li><p>
+The next two fields contain the Width and Height values for the selected objects. If you have multiple objects selected, two hyphens (<strong>- -</strong>) appear in the fields that have different values. Enter a new width or height value to resize an object on the canvas.
+</p></li>
+<li><p>
+Click the flip buttons to reverse the object horizontally or vertically.
+</p></li>
+<li><p>
+Next to the flip buttons is a pop-up menu with the following options:
+</p>
+
+<ul>
+<li><strong>No scaling</strong> &#8212; by default, the objects you draw on the canvas are not scaled to any size or proportion.</li>
+<li><strong>Maintain Aspect Ratio</strong> &#8212; the objects you draw or resize are scaled proportionally. In addition, there are three additional aspect-related options:
+
+<ul>
+<li><strong>Scale Stroke</strong> &#8212; scales the object&#8217;s stroke proportionally.</li>
+<li><strong>Scale Font</strong> &#8212; scales any text inside the object proportionally.</li>
+<li><strong>Scale Stroke and Font</strong> &#8212; scales the objects stroke and text proportionally.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p>
+If you have selected a line label, two additional controls become active:
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_07_geometry_labels.png" alt="Additional geometry controls for labels" id="og6_inspectors_07_geometry_labels" style="width:300px;" />
+</figure>
+
+<p>
+Use the pop-up menu to set how the label&#8217;s text appears in relation to the line. Options include: Horizontal, Vertical, Parallel, Perpendicular, Independent, and Follows Path. Use the slider next to the pop-up menu to change the label&#8217;s position in relation to the line.
+</p>
+
+<h3 id="TheAlignmentInspector">Positioning Objects Neatly with the Alignment Inspector</h3>
+
+<p>
+Use this inspector to line up and space out objects uniformly.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_08_alignmentinspector.png" alt="The Alignment Inspector" id="og6_inspectors_08_alignmentinspector" />
+</figure>
+
+<ul>
+<li><p>
+The matrix of nine buttons on the left changes how the alignment buttons work. It represents all of the combinations between vertically aligning to the top, middle, or bottom, and horizontally aligning to the left, center, or right. If you want, for example, to align objects by their upper-right corners, click the upper-right button in the matrix.
+</p></li>
+<li><p>
+Next to the button matrix are the align buttons. Their icons change to reflect the state of the button matrix. Click the horizontal-align button to line up the selected objects horizontally. Click the vertical-align button to line up the selected objects vertically. The first object you selected stays where it is, and the other selected objects move to align with it. These buttons are only useful when you have at least two objects selected.
+</p></li>
+<li><p>
+Next to the align buttons are two spread buttons. Click the horizontal spread button to distribute the selected objects evenly between the leftmost and rightmost objects. Click the vertical spread button to distribute the selected objects evenly between the top and bottom objects. These buttons are only useful when you have at least three objects selected.
+</p></li>
+<li><p>
+To the right are two fields and their associated spacing buttons. Enter a value in the top field and click the horizontal spacing button to put the specified amount of horizontal space between the selected objects. Enter a value in the bottom field and click the vertical spacing button to put the specified amount of vertical space between the selected objects. These buttons are only useful if you have at least two objects selected.
+</p></li>
+<li><p>
+If Align to canvas is selected, the align and spread buttons consider the canvas edges as &#8220;objects&#8221; when arranging the selected objects. This makes it so that you can align objects to a canvas edge, or space objects evenly between the canvas edges.
+</p></li>
+</ul>
+
+<h2 id="TypeInspectors">Type Inspectors</h2>
+
+<p>
+Manage the typography of selected objects.
+</p>
+
+<h3 id="TheFontInspector">The Font Inspector</h3>
+
+<p>
+Use this inspector to modify the font properties of the selected objects, including style, size, and color.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_09_fontinspector.png" alt="The Font Inspector" id="og6_inspectors_09_fontinspector" />
+</figure>
+
+<h3 id="TheTextInspector">Positioning and Styling Text with the Text Inspector</h3>
+
+<p>
+Use this inspector to control the positioning and appearance of the selected shape&#8217;s text.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_10_textinspector.png" alt="The Text Inspector" id="og6_inspectors_10_textinspector" />
+</figure>
+
+<ul>
+<li><p>
+With the horizontal alignment buttons, you can align left, center, align right, or justify the text.
+</p></li>
+<li><p>
+Click the color well to choose a font color.
+</p></li>
+<li><p>
+There are three buttons for controlling what happens when the shape contains more text than can be contained within its bounds. You can choose to let the text overflow outside of the shape, to clip off the text that doesn&#8217;t fit inside the shape, or to resize the shape to make the text fit. If you choose resize, the object will only be manually resizable in the horizontal direction; it will resize vertically according to its text. Select the Wrap to shape checkbox to limit the text&#8217;s width to the limits set by the Text Offset settings below.
+</p></li>
+<li><p>
+There are three buttons for setting the vertical alignment of the text; choose to align to the top, middle, or bottom of the shape.
+</p></li>
+<li><p>
+On the right side are controls for setting the Kerning (automatic character spacing for ideal balance), Tracking (manual character spacing), Leading (distance between lines), and Margins (distance between text and the edges of the text area). These controls become enabled or disabled depending on other controls in the inspector, or the amount of text in the object.
+</p></li>
+</ul>
+
+<h3 id="TheOffsetInspector">The Offsets Inspector (<strong>Pro</strong>)</h3>
+
+<p>
+This inspector contains the Text Offset and Text Rotation controls.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_11_offsetsinspector.png" alt="The Offset Inspector" id="og6_inspectors_11_offsetsinspector" />
+</figure>
+
+<p>
+By default, the <strong>Use default offsets</strong> option is turned on. If you uncheck this option, you can adjust the text&#8217;s position using the four input fields above; these are:
+</p>
+
+<dl>
+<dt>Text Offset from Left</dt>
+<dd>This adjusts the text&#8217;s position from the left edge of the object.</dd>
+
+<dt>Text Offset from Top</dt>
+<dd>This adjusts the text&#8217;s position from the top edge fo the object.</dd>
+
+<dt>Width:</dt>
+<dd>This adjusts the text box&#8217;s width.</dd>
+
+<dt>Height</dt>
+<dd>This adjusts the text box&#8217;s height.</dd>
+</dl>
+
+<p>
+Use the text&#8217;s rotation value to determine how the text appears when you rotate the object. By default, <strong>Relative rotation</strong> is turned on, which means that the text within an object will maintain its relative position when an object is rotated. Turn this off to set the text&#8217;s rotation independent of its bounding object. You can either enter a rotation value in the field or drag the circular control to rotate the text.
+</p>
+
+<h2 id="PropertiesInspectors">Properties Inspectors (<strong>Pro</strong>)</h2>
+
+<p>
+Use the <strong>Properties inspectors</strong>, available only in OmniGraffle Pro, to manage the advanced properties of selected objects.
+</p>
+
+<h3 id="TheConnectionsInspector">Changing the Way Objects Connect with the Connections Inspector (<strong>Pro</strong>)</h3>
+
+<p>
+Use this inspector to control how objects connect to one another.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_12_connectionsinspector.png" alt="The Connections Inspector" id="og6_inspectors_12_connectionsinspector" />
+</figure>
+
+<ul>
+<li><p>
+Turn off <strong>Allow connections from lines</strong> to make it impossible for connection lines to use the selected objects as sources or destinations.
+</p></li>
+<li><p>
+If you have a group or a table selected, you can choose whether connection lines should be allowed to connect to objects in the group or only to the group as a whole.
+</p></li>
+<li><p>
+The pop-up menu contains a bunch of magnet presets you can choose for the selected shape object. Magnets are points on a shape object that attract connection lines. You can choose to have no magnets, magnets placed according to cardinal directions (North, South, East, and West), magnets on each vertex (corner), or a certain number of magnets on each side of the shape.
+</p></li>
+</ul>
+
+<p class="note">
+<strong>Note</strong><br />
+The Magnet options can be found in the <strong>Edit</strong> menu in the standard edition of OmniGraffle 6.
+</p>
+
+<ul>
+<li><p>
+If you select some number of magnets per side, then hold Shift while opening the pop-up menu and selecting another number, the two numbers are added together; you can get up to 10 magnets per side in this way.
+</p></li>
+<li><p>
+Of course, you can always use the Magnet tool to customize a shape&#8217;s magnet arrangement.
+</p></li>
+<li><p>
+If you have a line selected, the Lines checkboxes become available. Deselect the Allow connections to other objects checkbox to make it impossible for the line to have an object as its source or destination. Deselect the Allow shapes to become labels checkbox to make it impossible to drag a shape onto the line and make it a line label; existing labels stay attached.
+</p></li>
+<li><p>
+Use the <strong>Object Rank</strong> buttons to assign a hierarchical rank to the selected objects. Default lets OmniGraffle decide the rank based on connections, Minimum puts the objects at the top of the hierarchy, Maximum puts the objects at the bottom of the hierarchy, and Same makes sure that the objects end up on the same level. These assignments don&#8217;t change the directions of connection lines, so you can always select all of your objects and choose Default to return them to normal.
+</p></li>
+</ul>
+
+<h3 id="TheNoteInspector">Adding Data to Objects with the Note Inspector  (<strong>Pro</strong>)</h3>
+
+<p>
+The Note inspector contains a field for entering text to associate with the selected object, and a table of custom data.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_13_noteinspector.png" alt="The Note Inspector" id="og6_inspectors_13_noteinspector" />
+</figure>
+
+<p>
+The note can be formatted as Rich Text, which means you can use all of the different font styles and colors that you can use elsewhere in OmniGraffle. When you put the pointer over an object with a note, the note&#8217;s text appears in a help tag floating over the object.
+</p>
+
+<p>
+You can use the custom data table to keep your own information about the object. Custom data is stored as key/value pairs: the Key is like a label for what type of information you are storing, and the Value is the information itself.
+</p>
+
+<p>
+For example, imagine you have a diagram of a computer network, and you want to assign a model number to each component. Click the placeholder row or the plus button to create a new key/value pair. In the Key column, you would type Part Number, and in the Value field, you would type, say, A1181. This data doesn&#8217;t have any effect on the way OmniGraffle works; it&#8217;s just a way for you to store arbitrary data about objects in your diagram. To delete a row of data, click the &#8216;x&#8217; button on the right side of the row.
+</p>
+
+<p>
+Notes can be found by OS X&#8217;s Spotlight search feature, in case you need to find your OmniGraffle diagrams that contain certain words.
+</p>
+
+<h3 id="TheActionInspector">Making Objects Interactive with the Action Inspector (<strong>Pro</strong>)</h3>
+
+<p>
+The <strong>Action inspector</strong> determines what should happen when someone clicks the selected object with the Action Browse Tool <img src="HelpImages/og6_toolpalette_12_browsetool.png" alt="The Action Browse Tool" id="og6_toolpalette_12_browsetool" /> in the toolbar. The default action is Does Nothing. You can click the object all you want, and nothing happens.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_14_actioninspector.png" alt="The Action Inspector" id="og6_inspectors_14_actioninspector" />
+</figure>
+
+<p>
+If you choose <strong>Opens a URL</strong> or <strong>Opens a File</strong>, you get a text field in which you can enter a URL or file path, along with two buttons: <strong>Choose File</strong> and <strong>Open</strong>. Click <strong>Choose File</strong> to browse your Mac&#8217;s hard drive for a file. Note that file paths are relative: they start from the folder containing the document you&#8217;re working on, not from the root of your hard drive. Click <strong>Open</strong> button to try opening the file or URL that you&#8217;ve specified. When the object is clicked, the file or URL is opened in the appropriate app.
+</p>
+
+<p>
+If you choose <strong>Runs a Script</strong>, you get a text field for entering an AppleScript. The script that you enter is run such that <tt>self</tt> refers to the clicked object. Click <strong>Check Syntax</strong> to make sure that the AppleScript is correct, and then click <strong>Run Script</strong> to try it out. In Presentation Mode (<strong>Option-&#8984;-P</strong>), the script runs when an actionable object is clicked.
+</p>
+
+<p>
+If you choose <strong>Jumps Elsewhere</strong>, you get another pop-up menu for choosing where in the current document to jump. You can jump to a specific canvas, the next or previous canvas, or a specific point or object on any canvas. Some of these options offer a tiny canvas preview, in which you can click or drag to indicate which object to highlight, which point to center on, or where to zoom.
+</p>
+
+<p>
+If you choose <strong>Shows or Hides Layers</strong>, you can indicate whether to show, hide, or toggle the visibility of any layer of the current canvas.
+</p>
+
+<h2 id="CanvasInspectors">Canvas Inspectors</h2>
+
+<p>
+Manage the appearance and properties of the current or selected canvases.
+</p>
+
+<h3 id="TheCanvasSizeInspector">Changing the Canvas Size and Scale with the Canvas Size Inspector</h3>
+
+<p>
+Use this inspector to change the size of the canvas, how the canvas fits onto printed pages, or what kind of measurement units to use.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_15_canvassizeinspector.png" alt="The Canvas Size Inspector" id="og6_inspectors_15_canvassizeinspector" />
+</figure>
+
+<ul>
+<li><p>
+The Canvas Size fields control the width and height of the canvas. You can use any of the units available in the Ruler, or enter a number of pages.
+</p></li>
+<li><p>
+Select Size is multiple of printer sheets to make the edges of the canvas snap to the edges of pages. This prevents the canvas from ending in the middle of a page.
+</p></li>
+<li><p>
+If you select Auto-adjust the canvas size, the canvas will grow or shrink to fit the objects you create.
+</p></li>
+<li><p>
+When you print, if Print canvas on one printer sheet is selected, the canvas gets scaled up or down to fit a single piece of paper regardless of its size on the screen.
+</p></li>
+<li><p>
+The Orientation of pages can be portrait (vertical), landscape (horizontal), or can be taken from the settings in Page Setup.
+</p></li>
+<li><p>
+(<strong>Pro</strong>) Set the desired representation of one &#8220;point&#8221; as displayed on screen at 100% zoom to best fit your printing needs or screen pixel density (one Apple point is the default).
+</p></li>
+</ul>
+
+<h3 id="TheCanvasFillInspector">The Canvas Fill Inspector</h3>
+
+<p>
+Select a canvas by clicking its preview in the sidebar to edit its background fill properties. As with the Object Fill inspector you can choose from nine fill styles and edit various parameters of each.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_16_canvasfillinspector.png" alt="The Canvas Fill Inspector" id="og6_inspectors_16_canvasfillinspector" />
+</figure>
+
+<h3 id="TheBackgroundImageInspector">The Background Image Inspector</h3>
+
+<p>
+You can also add an image to a canvas. Just click the canvas in the sidebar and then use the Background Image inspector to place an image similarly to the Object Image inspector.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_17_backgroundimageinspector.png" alt="The Background Image Inspector" id="og6_inspectors_17_backgroundimageinspector" />
+</figure>
+
+<p>
+Use the controls to the left of the Mask button to Manually Size, Stretch, or Tile the image you&#8217;ve placed. Use the grid of four fields to position the image from left, from top, sized horizontally, or sized vertically. Use the slider at the bottom of the inspector to change the image&#8217;s opacity. 
+</p>
+
+<h3 id="TheUnitsInspector">The Units Inspector</h3>
+
+<p>
+Use the <strong>Units inspector</strong> to determine the unit of measure to use for the canvas and its rulers, as well as to set the scale and origin points.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_18_unitsinspector.png" alt="The Unit Inspector" id="og6_inspectors_18_unitsinspector" />
+</figure>
+
+<h4 id="Units">Units</h4>
+
+<p>
+The <strong>Units</strong> pop-up menu is where you set the type of measurement units you&#8217;d like to use for the current canvas. All of OmniGraffle&#8217;s supported units are listed, with their standard abbreviations.
+</p>
+
+<p>
+The actual size of your diagram does not change when you change the units; it is merely measured differently. The ruler and the inspectors display measurements in whichever unit you select here.
+</p>
+
+<p>
+Units marked with an asterisk (<strong>&#42;</strong>) can be used as canvas units. This means that when you set up a <strong>Unit Scale</strong> (see the next section), only these units can be used on the left-side &#8220;actual size&#8221; part of the equation. Any kind of units can be used on the right-side &#8220;theoretical size&#8221; part of the scale equation.
+</p>
+
+<h4 id="UnitScale">Unit Scale</h4>
+
+<p>
+The <strong>Unit Scale</strong> pop-up menu can be used to interpret simple expressions of scale. By default, the scale is based on the item you choose in the <strong>Units</strong> pop-up. For example, if you set <strong>Units</strong> to <strong>feet (ft)</strong>, the <strong>Scale</strong> pop-up reads <strong>12 in = 1 ft</strong>.
+</p>
+
+<p>
+If you choose <strong>Custom</strong> from the <strong>Scale</strong> pop-up, you can change the scale to suit the project you&#8217;re currently working on. For example, if you enter <strong>1 cm = 1 m</strong>, 1 cm on the ruler now becomes 1 meter, objects on the canvas that were 2 cm wide are now 2 meters wide, and so on. The Units setting changes to match the second value in the equation.
+</p>
+
+<p>
+You can also enter a ratio. For example, if you set a Custom Scale to 1:12, the ruler units stay the same, but objects on the canvas now claim to be 12 times larger than they were before you changed the scale.
+</p>
+
+<p>
+If you already have a scale set up and you conver directly to a different one, the objects change their actual size on the canvas to fit the new scale. For example, imagine you are working in 1 cm = 1 m, and then you convert the scale to 2 cm = 1 m. The marks on the ruler become twice as far apart as they were, and the objects on the canvas, staying true to the ruler, grow twice as large on the screen. You can get a new scale without resizing the objects by choosing from the Reset Scale To: section of the Unit scale pop-up menu. 
+</p>
+
+<h4 id="CanvasOriginPoints">Canvas Origin Points</h4>
+
+<p>
+By default, the very upper-left corner of a canvas is its origin (that is, the point where the rulers&#8217; measurements start from, where the coordinates are 0,0). To change the origin, enter values in the two Origin fields. (You can also drag the origin from the corner where the rulers meet.) The coordinates in the Geometry inspector are based on this origin point.
+</p>
+
+<h3 id="TheGridInspector">Setting up a Grid with the Grid Inspector</h3>
+
+<p>
+Use this inspector to set up a grid on the canvas, so you can keep objects lined up nicely.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_19_gridinspector.png" alt="The Grid Inspector" id="og6_inspectors_19_gridinspector" />
+</figure>
+
+<p>
+The two fields at the top of the inspector are where you can set the values for the Major and Minor Grid spacing, respectively:
+</p>
+
+<ul>
+<li><p>
+The <strong>Major Grid Spacing</strong> field determines how large each square of the main grid should be. Click the color well next to it to choose a color for the major grid.
+</p></li>
+<li><p>
+The <strong>Minor Grid Steps</strong> field determines how many minor grid squares should fit across one major grid square. For example, if your major grid squares are 100 pixels across, and you have 10 minor grid steps, your minor grid squares are 10 pixels across. Click the color well next to it to choose a color for the minor grid.
+</p></li>
+</ul>
+
+<p>
+The checkboxes beneath the Major and Minor Grid spacing fields provide additional control over how the grid is used and its appearance:
+</p>
+
+<ul>
+<li><p>
+While the <strong>Snap to grid</strong> checkbox is selected, all objects fit themselves to the grid as you create or move them. (If you want to snap objects already on the canvas, use the Align To Grid button below.)
+</p></li>
+<li><p>
+Select <strong>Grid in front</strong> to make the grid visible in front of objects on the canvas.
+</p></li>
+<li><p>
+Select <strong>Show grid lines</strong> to show the Minor Grid lines on the canvas.
+</p></li>
+<li><p>
+Select <strong>Show major</strong> to make the heavier Major Grid lines visible as well.
+</p></li>
+<li><p>
+Select <strong>Print grid</strong> to include the grid when printing.
+</p></li>
+</ul>
+
+<p class="note">
+<strong>Tip</strong><br/>
+Choose <strong>Arrange &gt; Grid &gt; Align Objects to Grid</strong> (<strong>Option-&#8984;-[</strong>) to make all of the selected objects line up to the grid right away.
+</p>
+
+<h3 id="TheCanvasDataInspector">The Canvas Data Inspector (<strong>Pro</strong>)</h3>
+
+<p>
+You can also edit the note and other metadata of a canvas itself. Just click the canvas in the sidebar and then use the Canvas Data inspector to add metadata for the canvas.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_20_canvasdatainspector.png" alt="The Canvas Data Inspector" id="og6_inspectors_20_canvasdatainspector" />
+</figure>
+
+<p>
+As with the data added using the Properties Note inspector, this information is used primarily for indexing and doesn&#8217;t affect the appearance of your OmniGraffle document in any way.
+</p>
+
+<h3 id="TheDiagramLayoutInspector">Automatically Arranging Objects with the Diagram Layout Inspector</h3>
+
+<p>
+Use this inspector to automatically lay out shapes based on the logical relationships established by the connection lines between them.
+</p>
+
+<p>
+Use the <strong>Fill Type</strong> pop-up (the big button on the left) to select from one of four layout types: Hierarchical (the default), Force-directed, Circular, and Radial. The various controls within the Diagram Layout inspector change depending on which layout type you choose.
+</p>
+
+<dl>
+<dt>Hierarchical</dt>
+<dd>The hierarchical layout creates layers of equally-ranked objects, extending in one direction.</dd>
+</dl>
+
+<figure>
+<img src="HelpImages/og6_inspectors_21_diagramlayoutinspector.png" alt="The Diagram Layout Inspector, showing the options for a Hierarchical layout" id="og6_inspectors_21_diagramlayoutinspector" />
+</figure>
+
+<dl>
+<dt>Force-directed</dt>
+<dd>The force-directed layout grows in semi-random directions from the center, rather than in one particular direction from the edge.</dd>
+</dl>
+
+<figure>
+<img src="HelpImages/og6_inspectors_21_diagramlayout_forcedirected.png" alt="The Diagram Layout Inspector, showing the options for a Force-directed layout" id="og6_inspectors_21_diagramlayout_forcedirected" />
+</figure>
+
+<dl>
+<dt>Circular</dt>
+<dd>The circular layout tries to arrange sibling shapes in a circle around their parent.</dd>
+</dl>
+
+<figure>
+<img src="HelpImages/og6_inspectors_21_diagramlayout_circular.png" alt="The Diagram Layout Inspector, showing the options for a Circular layout" id="og6_inspectors_21_diagramlayout_circular" />
+</figure>
+
+<dl>
+<dt>Radial</dt>
+<dd>The radial layout tries to arrange sibling shapes in arcs around their parent.</dd>
+</dl>
+
+<figure>
+<img src="HelpImages/og6_inspectors_21_diagramlayout_radial.png" alt="The Diagram Layout Inspector, showing the options for a Radial layout" id="og6_inspectors_21_diagramlayout_radial" />
+</figure>
+
+<p>
+When you use a hierarchical layout:
+</p>
+
+<ul>
+<li><p>
+The Direction buttons change where the top level objects start, and which way to layer the lower level objects from there.
+</p></li>
+<li><p>
+The Rank Separation field controls how far away each level of objects should be from the next.
+</p></li>
+<li><p>
+The Object Separation field controls how far away each object should be from other objects on the same level.
+</p></li>
+</ul>
+
+<p>
+When you use other layout methods:
+</p>
+
+<ul>
+<li><p>
+Connection lines can stretch and compress, but you can adjust their average length by dragging the Line Length slider.
+</p></li>
+<li><p>
+The Shape Repulsion slider determines how strongly the shapes try to avoid coming near one another. If the line length and shape repulsion are small enough, shapes can be made to overlap.
+</p></li>
+</ul>
+
+<p>
+Finally, you can turn on <strong>Auto layout</strong> to make OmniGraffle distribute the objects on the canvas whenever the connections between them change.
+</p>
+
+<h2 id="DocumentInspectors">Document Inspectors</h2>
+
+<p>
+Manage the properties of the document.
+</p>
+
+<h3 id="TheFormatInspector">The Format Inspector</h3>
+
+<p>
+The pop-up menu determines whether to save your document as a <strong>flat file</strong> or a <strong>file package</strong>:
+</p>
+
+<dl>
+<dt>Flat file</dt>
+<dd>A flat file is a single file on the disk, with all of the attached images embedded within.</dd>
+
+<dt>File package</dt>
+<dd>A file package is actually a folder disguised as a single file, with all of the attached images rattling around loose inside.</dd>
+</dl>
+
+<p>
+In some technical cases, it might be desirable to use one type or the other; if you don&#8217;t even know why this should matter, it&#8217;s safe to stick with the Automatic setting.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_22_formatinspector.png" alt="The Format Inspector" id="og6_inspectors_22_formatinspector" />
+</figure>
+
+<p>
+Normally OmniGraffle documents are &#8220;property list&#8221;–based text files. If you turn on <strong>Compress on disk</strong>, your file is instead saved in a binary format that takes up less space on the disk but whose innards can&#8217;t be read by scripts or text editors. If you don&#8217;t need to open an OmniGraffle document with a text editor, just go ahead and compress your files. This won&#8217;t hurt anything; it just makes the filesize a wee bit smaller.
+</p>
+
+<h3 id="TheMarginsInspector">The Margins Inspector</h3>
+
+<p>
+Here you can specify your own page margins, or choose <strong>Use printer margins</strong> to default to the margins defined by your printer driver (or by any custom settings you&#8217;ve made in <strong>File &gt; Page Setup</strong>).
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_23_marginsinspector.png" alt="The Margins Inspector" id="og6_inspectors_23_marginsinspector" />
+</figure>
+
+<h3 id="TheDataInspector">Storing Information About your Document in the Data Inspector</h3>
+
+<p>
+The Document Data inspector has fields for lots of information about your document, in case you care to keep track of such things. The available fields are Subject, Copyright, Version, Description, and Comments. The pop-up menu includes options for adding information about the document&#8217;s Authors, Organizations, Languages, Keywords, and Projects.
+</p>
+
+<figure>
+<img src="HelpImages/og6_inspectors_24_documentdatainspector.png" alt="The Document Data Inspector" id="og6_inspectors_24_documentdatainspector" />
+</figure>
+
+<p>
+All of this data is made available to OS X&#8217;s Spotlight searching feature, to help you find the diagram you&#8217;re looking for.
+</p>
+
+<h2 id="UsingStencils">Using Stencils to Keep and Share Commonly Used Objects</h2>
+
+<p>
+A stencil is a set of useful objects that you can drag into your diagrams. To see the available stencils&#8212;or any you&#8217;ve added&#8212;choose <strong>View &gt; Show Inspector &gt; Stencils Library</strong> (<strong>&#8984;&#8211;6</strong>), or click the rightmost button at the top of the Inspector sidebar.
+</p>
+
+<figure>
+<img src="HelpImages/og6_stencils_01_defaultview.png" alt="The default top-level view of the Stencils Library" id="og6_stencils_01_defaultview" />
+</figure>
+
+<ul>
+<li><p>
+Navigate through the hierarchy of your stencil collection using the back and forward buttons.
+</p></li>
+<li><p>
+Enter something in the <strong>Search</strong> field to find stencils whose names match, or stencils containing objects whose text or notes match.
+</p></li>
+<li><p>
+Select a stencil in the list to see its contents; select a whole folder to see the contents of all the stencils inside.
+</p></li>
+<li><p>
+With a stencil or folder selected, use the three buttons to the right of the search field to change how the stencils are displayed in the sidebar: as a condensed cluster, a table, or a list with previews and metadata.
+</p></li>
+<li><p>
+If you don&#8217;t need the entire object, but just one or all of its styles, drag a style from the style tray to an object in your document.
+</p></li>
+</ul>
+
+<p>
+To use a stencil, just drag it from the Stencil Library and drop it anywhere on the canvas. A copy of the object is made and the original remains in the Stencil Library, so take as many copies as you need. You can do the same sort of selection tricks that you can do on a canvas, such as &#8984;-clicking or -dragging a rectangle to select multiple objects, or Option-dragging an object to make another copy.
+</p>
+
+<p>
+To search your stencils, type in the <strong>Search</strong> field at the top of the Inspector sidebar. OmniGraffle sifts through your stencils to help you find the object of your desire. Stencils that match appear in the special Search Results section of the stencil list. Normally, if any object on a stencil matches, then all objects on that stencil appear in the results. When searching from within a folder or stencil, however, the search field acts as a filter that only shows objects matching the filter text.
+</p>
+
+<p>
+To make a new stencil, choose <strong>File &gt; New Resource &gt; New Stencil</strong> from the menu bar. You can edit the document that appears just like you would edit a normal OmniGraffle diagram. A preview of the stencil appears in the stencil window as you work. Once the stencil looks just how you want it, choose <strong>File &gt; Save</strong> (<strong>&#8984;-S</strong>).
+</p>
+
+<p>
+To edit a stencil, open it in the Resource Browser (<strong>Shift-&#8984;-N</strong>). Then edit and save the stencil just like a normal OmniGraffle document.
+</p>
+
+<h2 id="UsingTheStyleTray">Using the Style Tray</h2>
+
+<p>
+At the bottom of the Inspector sidebar, you&#8217;ll find a tray which contains style &#8220;chits&#8221; for the selected object.
+</p>
+
+<figure>
+<img src="HelpImages/og6_styletray.png" alt="The Style Tray" id="og6_styletray" />
+</figure>
+
+<p>
+The isolated chit on the left represents all of the styles applied to the selected object, while the rest of the chits represent each of the styles applied to the object, such as fill, stroke, image, shadow, shape, font, and text position. Drag any of these chits to another object, to a group in the Selection inspector, or to a tool in the tool palette, to copy the style there.
+</p>
+
+<p class="note">
+<strong>Note</strong><br/>
+The absence of a style&#8212;such as having no stroke, no fill, or no shadow&#8212;also counts as a style. For instance, you can drag a &#8220;no fill&#8221; chit to an object to remove its fill.
+</p>
+
+<p>
+If you select more than one object, only the styles that those objects have in common appear in the style tray.
+</p>
+
+<h2 id="RulersAndTheInspectorBar">Rulers and the Inspector Bar</h2>
+
+<p>
+In addition to the grid, which you can turn on in the <strong>Grid</strong> Canvas inspector (<strong>&#8984;&#8211;4</strong>), you can also turn on rulers (<strong>View &gt; Rulers</strong>, or <strong>&#8984;-R</strong>) to help you position objects on the canvas.
+</p>
+
+<p>
+You can use a combination of ruler guides and OmniGraffle&#8217;s Smart Guides to position and perfectly align objects on the canvas. To add a ruler guide to your canvas, click and hold on either the top or left ruler bar and then drag a guide onto the canvas. The guides you drag in are bright pink, so they are easy to recognize. There&#8217;s no limit to the number of guides you can drag onto the canvas, so don&#8217;t be shy.
+</p>
+
+<p>
+By default, the very upper-left corner of a canvas is known as its <em>origin</em> (that is, the point from which all ruler measurements originate, and the coordinates are 0,0). To change the origin, click and drag the origin from the corner where the rulers meet. (Alternatively, you can enter <strong>Origin</strong> values in the <strong>Units</strong> Canvas inspector.) The coordinates in the Geometry inspector are based on this origin point.
+</p>
+
+<figure>
+<img src="HelpImages/og6_ruleroriginpoint.png" alt="The origin point can be dragged out to any other position on the canvas" id="og6_ruleroriginpoint" />
+</figure>
+
+<p>
+To reset the origin to the 0,0 position, just click on the origin point between the two rulers. Click the origin point again and the origin point will change to its previous position.
+</p>
+
+<p>
+When editing text, tab stops appear on the ruler and text formatting controls appear above it. You can style text, change the spacing and alignment, or drag tab stops to and from the ruler.
+</p>
+
+<p>
+When you aren&#8217;t editing text, the area above the ruler&#8212;the Inspector Bar&#8212;contains controls for editing basic attributes of selected objects:
+</p>
+
+<figure>
+<img src="HelpImages/og6_rulersandinspectorbar_01.png" alt="Rulers and Inspector bar" id="og6_rulersandinspectorbar_01" />
+</figure>
+
+<ol>
+<li><strong>Horizontal Object Position</strong> &#8212; the object&#8217;s position from the left origin point.</li>
+<li><strong>Vertical Object Position</strong> &#8212; the object&#8217;s position from the top origin point.</li>
+<li><strong>Object Width</strong> &#8212; the object&#8217;s width.</li>
+<li><strong>Object Height</strong> &#8212; the object&#8217;s height.</li>
+<li><strong>Shadow Casting Style</strong> &#8212; set the shadow style for the object; for additional control over shadows, see the Shadow inspector.</li>
+<li><strong>Shape Style</strong> &#8212; this pop-up lets you quickly select a shape style for the selected object.</li>
+<li><strong>Stroke</strong> &#8212; choose a stroke style for the selected object.</li>
+<li><strong>Stroke Color</strong> &#8212; choose a color for the stroke.</li>
+<li><strong>Stroke Thickness</strong> &#8212; set the width (or thickness) for a stroke.</li>
+</ol>
+
+<h2 id="PresentationMode">Presentation Mode (<strong>Pro</strong>)</h2>
+
+<p>
+For those times when you need to make a presentation, say to show off the new user interface for an app you&#8217;re developing or when you&#8217;re showing a client how you plan to redesign their home, OmniGraffle Professional offers Presentation mode. Available by choosing <strong>View &gt; Start Presentation</strong>, OmniGraffle takes over your entire screen so you can easily show off your work to everyone in the room.
+</p>
+
+<p class="note">
+<strong>Tip</strong><br/>
+To turn presentation mode on and off quickly, use <strong>Option-&#8984;-P</strong>. To leave presentation mode, press Escape or click the <strong>&#215;</strong> button that appears when you move the mouse pointer to the bottom of the screen.
+</p>
+
+<p>
+Each canvas acts as a slide; use the arrow keys to move between canvases. You can also press Return or Enter, or click, to move to the next canvas. If your Presentation preferences are set to highlight an object when you click it, doing so won&#8217;t advance to the next canvas; you can still click an empty area of the canvas to advance.
+</p>
+
+<p>
+While in Presentation mode, you can get to the menu bar by moving your mouse to the top of the screen. The menu bar goes back into hiding when you move the mouse away. If you move the mouse to the bottom of the screen, a navigation interface appears, with buttons for going forward or back, exiting, or moving directly to a particular canvas.
+</p>
+
+<p>
+You can highlight objects to draw attention to them during the presentation. Use the Presentation preferences to control how highlighting happens.
+</p>
+
+<p>
+Actions set up in the Action inspector work while in presentation mode. When you click an object that has an action assigned, it performs the action as if you had clicked it with the Browse tool.
+</p>
+
+<h2 id="CreatingAndManagingTemplates">Creating and Managing Templates</h2>
+
+<p>
+OmniGraffle comes with several templates, and you can create your own if you find that you&#8217;re creating the same kind of document over and over again. A template is a document that acts as a starting point for new documents.
+</p>
+
+<p>
+To open a template, choose <strong>File &gt; Resource Browser</strong> (<strong>Shift-&#8984;-N</strong>) and select one of the available Templates.
+</p>
+
+<figure>
+<img src="HelpImages/og6_resourcebrowser_templates.png" alt="Choose a template from the Resource Browser" id="og6_resourcebrowser_templates" style="width:600px;" />
+</figure>
+
+<p>
+When you select a template in the Resource Browser, you&#8217;ll notice that the right side of the window reveals a little more detail about the template. If you find that you&#8217;re using a particular template often, click <strong>Make Default</strong> to specify the selected template as the default. 
+</p>
+
+<p>
+After you set a default template, OmniGraffle bypasses the Resource Browser and uses the default template for any new documents you create. If you don&#8217;t want to use the default template, just open the Resource Browser (<strong>Shift-&#8984;-N</strong>) and choose something else.
+</p>
+
+<p>
+You can also create a new template or edit a template that belongs to you. When you create an OmniGraffle template, everything about it is preserved, from the canvas size and grid layout, to layers, to visibility of extras, to the automatic layout settings. 
+</p>
+
+<p>
+To create a template, choose <strong>File &gt; New Resource &gt; New Template</strong> from the menu bar, and then choose an existing template to use as a starting point. Set up the document exactly the way you want it, then save it to the Templates folder that OmniGraffle has already set up on your Mac. Once saved, your template is available in the Templates section of the Resource Browser.
+</p>
+
+<div class="note">
+<p>
+<strong>A Note About Where the Templates Are Stored</strong><br/>
+Just in case you're wondering about where that Templates folder is, here's how you can find it on your Mac:
+</p>
+
+<ol>
+<li>Open a Finder window.</li>
+<li>Hold down the <strong>Option</strong> key and then choose <strong>Go &gt; Library</strong> in the menu bar. (Library only shows up if you're holding the Option key, so make sure that you've got that pressed down.)</li>
+<li>The Finder window puts you in your user account's Library folder (<em>~/Library</em> for you Unix types). Now go through the following path to get to the Templates folder:
+	<ol style="list-style-type:disc;">
+		<li>Containers</li>
+		<li>com.omnigroup.OmniGraffle6</li>
+		<li>Data</li>
+		<li>Library</li>
+		<li>Application Support</li>
+		<li>The Omni Group</li>
+		<li>OmniGraffle</li>
+		<li>Templates</li>
+	</ol>
+And again, for the Unix folks in the audience, that path is: <em>~/Library/Containers/com.omnigroup.OmniGraffle6/Data/Library/Application\ Support/The\ Omni\ Group/OmniGraffle/Templates</em>.</li>
+</ol>
+
+<p>
+All templates end with a <em>.gtemplate</em> file extension. 
+</p>
+</div>
+
+<h2 id="Preferences">Preferences</h2>
+
+<p>
+A standard feature among Mac apps, OmniGraffle&#8217;s preferences can be accessed from the menu bar (<strong>OmniGraffle &gt; Preferences</strong>), or with the <strong>&#8984;-,</strong> keyboard shortcut.
+</p>
+
+<p>
+Two features that all of the preference panes offer are the ability to <strong>Reset</strong> (<img src="HelpImages/og6_button_reset.png" alt="The Reset button" id="og6_button_reset" style="height:20px;" />) any changes you&#8217;ve made to the defaults settings, and quick access to <strong>Help</strong> (<img src="HelpImages/og6_button_help.png" alt="The Help button" id="og6_button_help" style="height:20px;" />) documentation for that pane.
+</p>
+
+<h3 id="GeneralPreferences">General Preferences</h3>
+
+<p>
+The General preferences give you control over basic OmniGraffle settings, such as what OmniGraffle does at startup, whether new documents open with a blank canvas or you&#8217;re taken to the template chooser, and things like text editing and selection behaviors. You can also turn on Multi-Touch support for trackpad support, and opt for OmniGraffle to only show you the inspectors you need when you&#8217;re working in the canvas.
+</p>
+
+<figure>
+<img src="HelpImages/og6_prefs_general.png" alt="OmniGraffles General preference pane" id="og6_prefs_general" style="width:600px;" />
+</figure>
+
+<p>
+Options include:
+</p>
+
+<dl>
+<dt>Startup</dt>
+<dd>Select Create new document if nothing else is open to start with a new document when you aren&#8217;t making OmniGraffle remember open documents, or if there were no open documents the last time you quit.</dd>
+
+<dt>New Documents</dt>
+<dd>Select Open Resource Browser to be presented with a window for choosing from a variety of file sources each time you create a new document. Select Use Template, and choose your default template, if you&#8217;d rather bypass the browser. Either way, you can always get to the browser with the Resource Browser command in the File menu.</dd>
+
+<dt>Text Editing</dt>
+<dd>Decide how you would like the Return and Tab keys to behave while you are editing an object&#8217;s text. Whichever way you choose, you can hold Option while pressing the key to do the reverse instead.</dd>
+
+<dt>Selection</dt>
+<dd>Small objects get smaller versions of the handles that appear when you select them; if you really like the small ones, you can click Always use small selection handles to see them all the time.</dd>
+
+<dd>
+<p>
+When you click in the middle of a shape object that isn&#8217;t filled with an image or color, you might want to select the object or you might want to select whatever is behind it. Use the Click through objects with no fill checkbox to indicate which you prefer.
+</p></dd>
+
+<dt>Multi-Touch</dt>
+<dd>If you&#8217;d like to use Multi-Touch gestures with a trackpad on a compatible MacBook Pro or other device, click the checkbox here.</dd>
+
+<dt>Help Tags</dt>
+<dd>When you move or resize an object, a little help tag appears to let you know the object&#8217;s new location and size exactly. That is, unless you find it annoying and turn it off here.</dd>
+
+<dd><p>(<strong>Pro</strong>) If you have OmniGraffle Pro, a second option is available for displaying any notes and metadata you've assigned to an object when you mouse over them.</p></dd>
+
+<dt>Object ID Numbers</dt>
+<dd>(<strong>Pro</strong>) If you&#8217;re accessing OmniGraffle objects with AppleScript, or you&#8217;re otherwise endeared to unique IDs, you can select Show object identification numbers to add a column to the list sidebar.</dd>
+
+<dt>Full Screen</dt>
+<dd>Choose whether to display the toolbar when in full screen mode.</dd>
+
+<dt>Inspectors</dt>
+<dd>Choose whether to hide inspectors that don&#8217;t apply to the currently selected object.</dd>
+
+<dt>Preferences Reset button</dt>
+<dd>Each preference pane has a Reset button in the lower left. Clicking this button returns all of the settings on the pane to their defaults. To reset all settings on all preference panes, hold Option while clicking the Reset button.</dd>
+</dl>
+
+<h3 id="DrawingTools">Drawing Tools</h3>
+
+<p>
+The Drawing Tools preferences provides you with another way to organize the tools you see in OmniGraffle&#8217;s toolbar and set their Hot Keys. You can also define how you interact with the tools, and set the behaviors for line creation and editing.
+</p>
+
+<figure>
+<img src="HelpImages/og6_prefs_drawingtools.png" alt="OmniGraffles Drawing Tools preference pane" id="og6_prefs_drawingtools" style="width:600px;" />
+</figure>
+
+<p>
+You can drag tools around in the list to reorder them in the palette. Move the separator line to change where the expansion button appears in the toolbar; move it to the end of the list to get rid of the button entirely. 
+</p>
+
+<p>
+Double-click a tool&#8217;s hot key to change it. A hot key activates a tool for only as long as you hold the key down; once you release the key, the previously active tool becomes active again.
+</p>
+
+<dl>
+<dt>Inspect a tool</dt>
+<dd>By default, in order to inspect a tool you need to Option-click it. If you prefer, you can make it take just one normal click to inspect a tool.</dd>
+
+<dt>Keep tool active</dt>
+<dd>By default, it takes one click to temporarily activate a tool, and two clicks to make a tool &#8220;stick&#8221; in an active state. You can choose to make tools stick after only one click, or make it so that every tool selection is temporary.</dd>
+
+<dt>Line Creation</dt>
+<dd>When you are creating a line, clicking an object will always connect the line to the object and end the line. If you click in an empty area of the canvas, though, you might want to end the line there or you might want just to add a point there and continue creating the line. Use this preference setting to indicate which you prefer.</dd>
+
+<dt>Line Editing</dt>
+<dd>When you double-click a line, you might prefer to add a new point to the line, or you might prefer to add a label. Choose one; Option-double-click will do the other.</dd>
+</dl>
+
+<h3 id="PresentationPreferences">Presentation Preferences</h3>
+
+<p>
+Available only in OmniGraffle Professional, use the Presentation preferences to configure your settings for making presentations.
+</p>
+
+<figure>
+<img src="HelpImages/og6_prefs_presentation.png" alt="OmniGraffles Presentation preference pane" id="og6_prefs_presentation" style="width:600px;" />
+</figure>
+
+<dl>
+<dt>Highlight Behavior</dt>
+<dd>Choose whether to have an object become highlighted whenever you put the pointer on it, whenever you click it, or never. You can also choose to display a badge for objects that have actions set up in the Action inspector.</dd>
+
+<dt>Highlight Appearance</dt>
+<dd>Click the color well to choose a color for the highlight. Use the slider to adjust the thickness of the highlight.</dd>
+</dl>
+
+<p class="note">
+<strong>Tip</strong><br/>
+To always match OS X&#8217;s highlight color (set in your Mac&#8217;s Appearance preferences), open the Colors palette and select the third button, <strong>Color Palettes</strong> in the window&#8217;s toolbar. In the <strong>Palette</strong> pop-up, choose <strong>Developer</strong> and then scroll down and choose <strong>selectedControlColor</strong> from the list of options.
+</p>
+
+<h3 id="UpdatePreferences">Update Preferences</h3>
+
+<p>
+If you've purchased your copy of OmniGraffle 6 (Pro or Standard) from The Omni Group's website, OmniGraffle can automatically use your Internet connection to check for new and updated versions.
+</p>
+
+<p class="note">
+The Update Preferences panel doesn't exist if you have purchased OmniGraffle 6 from the Mac App Store. When there's a new version of OmniGraffle 6 available, the Mac App Store will alert you to download and install that on your Mac.
+</p>
+
+<p>
+You can specify whether OmniGraffle will automatically check for updates Daily, Weekly, or Monthly, or if you&#8217;re really impatient, you can click <strong>Check for Updates Now</strong> to see if we&#8217;ve issued a new release. This is particularly helpful if you have <strong>Check for updates</strong> set to check Monthly and you&#8217;ve recently heard that a new update is available.
+</p>
+
+<figure>
+<img src="HelpImages/og6_prefs_update.png" alt="OmniGraffles Update preferences" id="og6_prefs_update" style="width:600px;" />
+</figure>
+
+<p>
+If <strong>Check for updates</strong> is turned on, you will be notified when there is a new version of OmniGraffle ready for you to download and enjoy. Click <strong>Check for Updates Now</strong> to look for the newest version manually; you can also choose <strong>OmniGraffle &gt; Check for Updates</strong> from the menu bar.
+</p>
+
+<p>
+Additionally, you can opt in to <strong>Include system information</strong> when OmniGraffle checks for updates. This sends basic information about your system to us, which we <em>only</em> use to better support various systems with future releases of OmniGraffle. And, as the Update preferences pane says: <em>&#8220;We promise to never use your information for nefarious purposes,&#8221;</em> which means that the information we receive about your system stays with us and is only used by us as we work on future updates of OmniGraffle.
+</p>
+</div>
+
+
+<div id="helpfooter">
+<p>
+<a href="index.html">Home</a> <span class="footer-right"><a href="index10_drawingbasics.html">Drawing Basics &#x232a;</a></span>
+</p>
+</div>
+
+
+</body>
+</html>

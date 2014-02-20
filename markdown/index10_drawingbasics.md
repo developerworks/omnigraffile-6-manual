@@ -1,12 +1,10 @@
-Drawing Basics {#DrawingBasics}
-==============
+# Drawing Basics {#DrawingBasics}
 
 Everything you’ll do in OmniGraffle involves drawing. Whether you’re creating the basic shapes for an organizational chart or prototyping a user interface for your next iOS or Mac app, OmniGraffle is packed with tools to feed your creativity.
 
 Before you dive right in, though, take some time to learn some of the basics of drawing in OmniGraffle. There are many tips and tricks here that can help you master OmniGraffle in no time.
 
-Creating Shapes {#CreatingShapes}
----------------
+## Creating Shapes {#CreatingShapes}
 
 The most basic way to create a shape is with the **Shape tool**. Select the Shape tool in the toolbar (note, this tool might look different if you have changed its style).
 
@@ -18,8 +16,7 @@ With the Shape tool selected, drag across the canvas until you have a shape that
 
 When you draw a shape, the mouse pointer changes to a set of crosshairs. The shape you draw takes on the **Current Style** in the Style Well. The default is a white-filled box with a simple black stroke. Click and drag to draw the shape; as you do, you’ll see a little box appear that gives you the dimensions of the object you’re drawing. Hold down the **Shift** key while drawing to restrain the dimensions of the shape to get that perfect square or circle you’ve been striving for.
 
-Selecting, Resizing, and Moving Objects {#SelectingResizingAndMovingObjects}
----------------------------------------
+## Selecting, Resizing, and Moving Objects {#SelectingResizingAndMovingObjects}
 
 To select an object, first make sure you are using the **Selection** tool (![The Selection Tool](HelpImages/og6_tools_selection.png)), and then click the object. When the object is highlighted—and if it can be resized—you will see eight handles along its edges.
 
@@ -29,52 +26,43 @@ Once you have selected an object, you can modify it with the **Inspectors** or u
 
 -   To resize an object, first select the object and then drag one of its resizing handles until the object is the size you’d like.
 
-    ![Select and then drag one of the resizing handles to resize an object](HelpImages/og6_drawingbasics_resizeobjects05.png)
+![Select and then drag one of the resizing handles to resize an object](HelpImages/og6_drawingbasics_resizeobjects05.png)
 
 -   To select or deselect more objects without losing the selection you’ve already made, hold Command as you click other objects.
 
-    ![Use the Command key to select or deselect multiple objects](HelpImages/og6_drawingbasics_resizeobjects06.png)
+![Use the Command key to select or deselect multiple objects](HelpImages/og6_drawingbasics_resizeobjects06.png)
 
 -   To select several adjacent objects at once, click in an empty area of the canvas and drag a box around the objects that you want to select. If you hold down the Option key while dragging, you’ll get only the objects that fit completely inside the selection rectangle.
 
-    ![Use click-and-drag to select multiple objects on the canvas](HelpImages/og6_drawingbasics_resizeobjects04.png)
+![Use click-and-drag to select multiple objects on the canvas](HelpImages/og6_drawingbasics_resizeobjects04.png)
 
 -   To rotate an object, hold down the Command key while mousing over one of the eight handles. The pointer changes from a standard resizing control to a curved one. An angle control appears inside of the object, along with a helper dialog that shows the degree of the angle.
 
-    ![Rotating an object](HelpImages/og6_drawingbasics_resizeobjects02.png)
+![Rotating an object](HelpImages/og6_drawingbasics_resizeobjects02.png)
 
 -   To quickly create a copy of an object you’ve drawn, hold down the Option key and then click on and drag the object you would like to copy. An exact duplicate appears on the canvas; this method is much faster than using Copy and Paste from the Edit menu or their respective keyboard shortcuts.
 
-    ![Option-drag an object to duplicate an object](HelpImages/og6_drawingbasics_resizeobjects03.png)
+![Option-drag an object to duplicate an object](HelpImages/og6_drawingbasics_resizeobjects03.png)
 
 -   To move an object, use the **Selection** tool to click and hold on the object, and then drag it to its new location. **Smart Guides** (the light blue lines) appear to help you align objects to one another.
 
-    ![Smart Guides help you align objects as you move them around on the canvas](HelpImages/og6_drawingbasics_resizeobjects07.png)
+![Smart Guides help you align objects as you move them around on the canvas](HelpImages/og6_drawingbasics_resizeobjects07.png)
 
 -   To group several objects together so they can be moved or styled as a single unit, select all of the objects and choose **Arrange \> Group** (**Shift-⌘-G**).
 
     ![Grouped objects can be styled and moved around as a single unit](HelpImages/og6_drawingbasics_groupobjects.png)
 
-    A group behaves like a single object; you can select it, move it around, resize it, use inspectors to change its style and
-    properties, connect lines to it, and so on. Any objects can be
-    grouped, even groups.
+    A group behaves like a single object; you can select it, move it around, resize it, use inspectors to change its style and properties, connect lines to it, and so on. Any objects can be grouped, even groups.
 
-    Click once to select the group as a whole, then click again to
-    select an individual member of the group. You can keep clicking to
-    select members of groups within groups.
+    Click once to select the group as a whole, then click again to select an individual member of the group. You can keep clicking to select members of groups within groups.
 
-    To take a group apart, select it and choose **Arrange \> Ungroup**
-    (**Shift-⌘-U**).
+    To take a group apart, select it and choose **Arrange \> Ungroup** (**Shift-⌘-U**).
 
--   (**Pro**) To combine two or more objects—for example, a circle that
-    overlaps a rectangle—to create a unique shape, select the objects
-    and then use the **Shapes** Object inspector (**⌘–1**) to combine
-    the shapes.
+-   (**Pro**) To combine two or more objects—for example, a circle that overlaps a rectangle—to create a unique shape, select the objects and then use the **Shapes** Object inspector (**⌘–1**) to combine the shapes.
 
-    ![Combine two or more objects using the Shapes Object inspector](HelpImages/0g6_drawingbasics_combinedobjects.png)
+![Combine two or more objects using the Shapes Object inspector](HelpImages/0g6_drawingbasics_combinedobjects.png)
 
-Connecting Objects with Lines {#ConnectingObjectsWithLines}
------------------------------
+## Connecting Objects with Lines {#ConnectingObjectsWithLines}
 
 You can connect any two objects with the **Line** tool (![The Line Tool](HelpImages/og6_tools_line.png)).
 
@@ -100,13 +88,11 @@ You can connect any two objects with the **Line** tool (![The Line Tool](HelpIma
 
     ![Disconnecting lines](HelpImages/og6_lineconnect06.png)
 
-编辑对象 {#EditingObjects}
----------------
+## Editing Objects {#EditingObjects}
 
 Any attribute of an object can be changed using the **Object Inspectors**; its size, shape, color, position, and so on. When you select an object, the applicable Inspectors become available in the right sidebar. Use the Inspector that deals with the attribute you want to change. As you change the settings in the inspector, the object changes on the canvas.
 
-For example, let’s say that you want to change the **Fill** color inside
-of that boring white object you’ve just created:
+For example, let’s say that you want to change the **Fill** color inside of that boring white object you’ve just created:
 
 1.  Select the object on the canvas.
 
@@ -130,11 +116,9 @@ of that boring white object you’ve just created:
 
     ![Select the Fill Color control](HelpImages/og6_editobject05.png)
 
-*PRO* Tables {#Tables}
-------------
+## *PRO* Tables {#Tables}
 
-A table is a special kind of group that organizes rows and columns of
-objects. To create a table:
+A table is a special kind of group that organizes rows and columns of objects. To create a table:
 
 1.  Create a single shape object to be the first cell of your table.
 
@@ -162,8 +146,7 @@ You can add or remove rows or columns at any time by dragging the table handles 
 
 To dismantle a table, select it and choose **Arrange \> Ungroup** (**Shift-⌘-U**).
 
-*PRO* Subgraphs {#Subgraphs}
----------------
+## *PRO* Subgraphs {#Subgraphs}
 
 A subgraph is a special kind of group that can be expanded to show the hierarchy inside it, or collapsed to make it a single compact object. To create a subgraph:
 
@@ -189,8 +172,7 @@ You can resize the containing rectangle, as long as you don’t make it too smal
 
 To disassemble a subgraph, select it and choose **Arrange \> Ungroup** (**Shift-⌘-U**).
 
-Smart Arrows {#SmartArrows}
-------------
+## Smart Arrows {#SmartArrows}
 
 Finally, the various arrow shapes in OmniGraffle 6 have some smart behavior, whether they are connecting shapes or not. When you resize an arrow shape, it tries to keep its arrowheads the same size, rather than stretching them along with the rest of the shape. If you want to change the size of the arrowheads or the thickness of the stem, click the blue handle in the crook of the arrowhead and drag.
 

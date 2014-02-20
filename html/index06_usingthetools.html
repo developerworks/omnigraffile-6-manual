@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>OmniGraffle 6: Using the Tools</title>
+	<meta name="author" content="The Omni Group"/>
+	<meta name="copyright" content="The Omni Group"/>
+	<meta name="date" content="September 2013"/>
+	<meta name="version" content="6.0"/>
+	<link rel="stylesheet" type="text/css" href="tog_help.css">
+</head>
+<body>
+
+<div id="pagewrap">
+<h1 id="UsingTheTools">Using the Tools</h1>
+
+<p>
+As you discovered, the <strong>Tool Palette</strong> has a lot to offer, and we brushed over them pretty lightly to just give you a glimpse of what was possible. Here we&#8217;ll go into a bit more depth and walk through each of the buttons in the Tool Palette so you can find the right tool for the job.
+</p>
+
+<h2 id="TheSelectionTool">Selecting, Moving, and Editing Objects with the Selection Tool</h2>
+
+<p>
+<img src="HelpImages/og6_toolpalette_01_selectiontool.png" alt="The Selection Tool" id="og6_toolpalette_01_selectiontool" /> The selection tool is the most basic tool; it looks just like the ordinary OS X mouse pointer.
+</p>
+
+<h3 id="SelectingObjects">Selecting Objects</h3>
+
+<p>
+Click an object on the canvas to select it.
+</p>
+
+<p>
+When you select an object on the Canvas, the inspector sidebar switches over to the <strong>Object</strong> inspector automatically. From there, you can use the inspectors to change anything about the selected object.
+</p>
+
+<p>
+To select several objects at once, click in an empty area of the canvas and drag a box around the objects. If you hold <strong>Option</strong>, only objects entirely inside the rectangle are selected. You can also <strong>&#8984;-</strong> or <strong>Shift-click</strong> an object to add it to or remove it from the selection.
+</p>
+
+<p>
+To select a member of a group, table, or subgraph, click once to select the group as a whole, then click again to select the member. The rest of the canvas dims to show that you are in group editing mode. Click anywhere outside the group to leave group editing mode.
+</p>
+
+<h3 id="MovingObjects">Moving Objects</h3>
+
+<p>
+To move an object, use the Selection tool to click-and-drag the object to a new location. If you want to move a line, you might have to detach its end points from any objects they&#8217;re attached to. To move an object horizontally or vertically, hold <strong>Shift</strong> as you drag. To rotate an object, <strong>&#8984;-drag</strong> one of its selection handles; you can also hold <strong>Shift</strong> to restrict the rotation to 15-degree increments.
+</p>
+
+<p>
+If you&#8217;re using a Mac with a touch-sensitive trackpad, you can use the rotate gesture with two fingers to rotate the selected objects (be sure that Multi-Touch gestures are enabled in <strong>OmniGraffle &gt; Preferences &gt; General &gt; Multi-Touch</strong>).
+</p>
+
+<p>
+To move the selected object very precisely, press the Arrow keys. Hold <strong>Option</strong> or <strong>Shift</strong> to move by larger steps.
+</p>
+
+<p>
+With <strong>Smart Guides</strong> enabled (<strong>Arrange &gt; Guides &gt; Smart Alignment Guides</strong> and <strong>Smart Distance Guides</strong>), you can line up objects and space them on the Canvas precisely. Hold <strong>&#8984;</strong> after you start dragging to temporarily enable or disable Smart Guides.
+</p>
+
+<p>
+To drag a copy of an object instead of the object itself, hold <strong>Option</strong> as you drag.
+</p>
+
+<h3 id="ResizingObjects">Resizing Objects</h3>
+
+<p>
+Any object (or group of objects) that can be resized has eight selection handles.
+</p>
+
+<figure>
+<img src="HelpImages/og6_object_resizehandles.png" alt="Selected objects have eight resizing handles which you can click and drag on to resize an object" id="og6_object_resizehandles" />
+</figure>
+
+<p>
+To change the shape&#8217;s size, use the Selection tool to click and drag one of the resize controls. As you click and drag on one of the handles, you&#8217;ll notice that the object is anchored by the opposing handle, and the object resizes in the direction you are moving the mouse.
+</p>
+
+<p>
+The following keys provide additional functionality when interacting with the resizing handles:
+</p>
+
+<ul>
+<li>Hold <strong>Shift</strong> while resizing to maintain the aspect ratio of the original object.</li>
+<li>Hold <strong>Option</strong> to resize an object with its center point being anchored.</li>
+<li>Hold <strong>Shift-Option</strong> while resizing to maintain the aspect ratio <em>and</em> resize the object based on its center point.</li>
+<li>Hold <strong>&#8984;</strong>, and the resize control changes to a rotate control so you can rotate the object.</li>
+</ul>
+
+<figure>
+<img src="HelpImages/og6_object_rotate.png" alt="Command-drag on a resize control to rotate an object" id="og6_object_rotate" />
+</figure>
+
+<p>
+If you have objects of different sizes on the canvas, but would like them to be the same size, first select the object that has the dimensions you'd like the others to emulate, choose <strong>Arrange &gt; Size</strong> and then choose one of the resizing options.
+</p>
+
+<p>
+If you select a table, the edge handles look like little grids. You can drag them to change the number of rows or columns in the table. Drag the corner handles to resize the table normally.
+</p>
+
+<figure>
+<img src="HelpImages/og6_resizehandles_table.png" alt="The edge handles on a table object look like little grids, while the corner handles can be dragged to add or remove columns and rows" id="og6_resizehandles_table" />
+</figure>
+
+<p class="note">
+<strong>Note</strong><br/>
+If you have Smart Guides enabled, they appear as you drag to help you size objects equally. Hold <strong>&#8984;</strong> after you start dragging to temporarily enable or disable Smart Guides.
+</p>
+
+<h3 id="EditingPoints">Editing Points</h3>
+
+<p>
+When you select a connection line or a custom shape, it shows the points that define its shape; these points appear as tiny blue diamonds.
+</p>
+
+<figure>
+<img src="HelpImages/og6_editpoints_01.png" alt="Tiny blue diamonds appear as control points on the lines of an object drawn with the Pen tool" id="og6_editpoints_01" />
+</figure>
+
+<p>
+Any line (created with the Line tool) has two points: a red one at its source and a green one at its destination. A line may also pass through any number of blue midpoints. Drag one of the points to move it; by dragging the source or destination point you can make the line connect to or disconnect from other objects.
+</p>
+
+<figure>
+<img src="HelpImages/og6_editpoints_04.png" alt="A line has a red point at its source, and a green point at its end." id="og6_editpoints_04" />
+</figure>
+
+<p>
+Custom shapes (created with the <strong>Pen</strong> tool) and B&eacute;zier-type lines have control points at each vertex. Click a control point to select it; if a control point is hiding behind a selection handle, <strong>Option-&#8984;-click</strong> to select it, or just select a different control point first to make the handles go away. If a control point has B&eacute;zier handles, they appear when you select the point:
+</p>
+
+<ul>
+<li>Drag either of the two handles to adjust both, or <strong>Option-drag</strong> to adjust them one at a time.</li>
+<li><strong>Shift-drag</strong> to constrain the handle&#8217;s angle to 45-degree increments.</li>
+<li><strong>&#8984;-drag</strong> a point to give it handles.</li>
+<li>If you drag a handle close enough to the point itself, the handle disappears entirely.</li>
+</ul>
+
+<figure>
+<img src="HelpImages/og6_editpoints_02.png" alt="Here we used Option-drag to get the Bezier handles to create a curve from an angled point" id="og6_editpoints_02" />
+</figure>
+
+<p>
+The default way to add points to an existing line is to double-click the line, but this can be changed in the General preferences (<strong>OmniGraffle &gt; Preferences &gt; General</strong>).
+</p>
+
+<p>
+To add a point to a custom shape, double-click somewhere along the shape&#8217;s stroke.
+</p>
+
+<figure>
+<img src="HelpImages/og6_editpoints_03.png" alt="Look, its a duck." id="og6_editpoints_03" />
+</figure>
+
+<p>
+To delete a point from a line or a custom shape, select it and then either press the <strong>Delete</strong> key or select <strong>Edit &gt; Delete</strong> from the menu bar.
+</p>
+
+<h2 id="TheShapeTool">Creating Shapes with the Shape Tool</h2>
+
+<p>
+<img src="HelpImages/og6_toolpalette_02_shapetool.png" alt="The Shape Tool" id="og6_toolpalette_02_shapetool" /> This tool is quite simple; use it to create shape objects&#8212;squares, rectangles, circles, and so on&#8212;based on the shape you&#8217;ve selected in the <strong>Shapes</strong> object inspector. 
+</p>
+
+<p>
+To create a shape:
+</p>
+
+<ul>
+<li><p>
+Drag across the canvas until you get the size you want.
+</p></li>
+<li><p>
+Hold <strong>Shift</strong> while dragging to make a shape of equal width and height (a perfect square, a perfect circle, and so on).
+</p></li>
+</ul>
+
+<p>
+Once you have created a shape, you can select it and change its attributes with the Object, Type, and Properties inspectors.
+</p>
+
+<h2 id="TheLineTool">Connecting Objects with the Line Tool</h2>
+
+<p>
+<img src="HelpImages/og6_toolpalette_03_linetool.png" alt="The Line Tool" id="og6_toolpalette_03_linetool" /> Use the Line tool to make logical connections between objects. Connected objects stay connected unless you disconnect them, no matter how much you move them around or change them.
+</p>
+
+<p>
+To create a new line:
+</p>
+
+<ul>
+<li><p>
+Click where you would like the source of the line; this can be an object (to which the line will stay attached) or an empty spot on the canvas (so the beginning of the line remains unattached).
+</p></li>
+<li><p>
+Click as many empty spots on the canvas as you like to give the line midpoints.
+</p></li>
+<li><p>
+End the line at an object by clicking the object (to which the line will stay attached), or end the line at an empty spot on the canvas by double-clicking there; this can be changed in the Drawing Tools preferences (<strong>OmniGraffle &gt; Preferences &gt; Drawing Tools &gt; Line Editing</strong>).
+</p></li>
+</ul>
+
+<p>
+Hold <strong>Shift</strong> while drawing a line to constrain the next point to angles at 45-degree increments from the previous point. Hold <strong>Option</strong> while drawing a line to prevent it from connecting to objects.
+</p>
+
+<p>
+When two objects are connected by a line, the object at the source is considered the <em>parent</em> of the object at the destination. This defines the objects&#8217; relationship in the outline view and when you use automatic layout.
+</p>
+
+<p>
+Lines can have line labels attached to them. Click a line with the <strong>Text tool</strong> to create a new text label. Or, drag an existing blob of text to the line until the line is highlighted, then drop it to attach it as a label.
+</p>
+
+<h2 id="TheTextTool">Creating and Editing Text with the Text Tool</h2>
+
+<p>
+<img src="HelpImages/og6_toolpalette_04_texttool.png" alt="The Text Tool" id="og6_toolpalette_04_texttool" /> Use the text tool to add a label to an object, to edit the label on an object, or to create a new shape with text inside.
+</p>
+
+<figure>
+<img src="HelpImages/og6_texttool_01.png" alt="Text in a duck!" id="og6_texttool_01" />
+</figure>
+
+<p>
+Click a shape to start editing its text. While you are in text editing mode, the top ruler becomes a text ruler, and you can use standard OS X text editing commands (for example, you can use the arrow keys to move the insertion point around).
+</p>
+
+<p>
+Click or drag in an empty area of the canvas to create a new shape with settings particularly suited to containing text. A single click creates an object that expands horizontally to fit the text you enter; a drag creates an object of a specific width. Remember that the objects you create in this way are not fundamentally different from other shapes; they just start with certain settings in the Text inspector which make them convenient for containing text.
+</p>
+
+<p>
+Click a connection line to add a new label to it. This label is just like the object created when you click an empty area of the canvas, except it is attached as a line label.
+</p>
+
+<p>
+Text inside objects can be found by OS X&#8217;s Spotlight search feature, in case you need to find your OmniGraffle diagrams that contain certain words.
+</p>
+
+<h2 id="ThePenTool">Drawing Your Own Shapes with the Pen Tool</h2>
+
+<p>
+<img src="HelpImages/og6_toolpalette_05_pentool.png" alt="The Pen Tool" id="og6_toolpalette_05_pentool" /> Use this tool to create custom shapes, such as the duck shown earlier. We&#8217;ve included a lot of nice shapes in the Lines and Shapes inspector and on the stencils, but perhaps you would like to draw your own.
+</p>
+
+<p>
+To start a new shape, click anywhere on the canvas. Each subsequent click adds a new point to the shape, until you double-click or press Return to make the final point. At any step along the way, instead of just clicking, <strong>click and drag</strong> to create a point with B&eacute;zier handles. While creating a shape, you can press Delete to remove the last point you added.
+</p>
+
+<p>
+B&eacute;zier handles can define any shape, once you get the hang of them. Each point can have a handle facing the next point, and a handle facing the previous point. The line between two points is defined by the first point&#8217;s forward-facing handle and the second point&#8217;s backward-facing handle. With no handles at all, you get a perfectly straight line. With handles, the line between them is a curve that tries to compromise between the handles&#8217; length and direction. This is truly one of those things that makes a ton more sense once you try it for yourself, so please do.
+</p>
+
+<figure>
+<img src="HelpImages/og6_pentool_shape_beaver.png" alt="A beaver?" id="og6_pentool_shape_beaver" />
+</figure>
+
+<p>
+Once you have created a shape, you can select it with the <strong>Selection tool</strong> and edit its points, adjust existing handles, add handles to points without them, or change the shape&#8217;s attributes with the Object, Type, and Properties inspectors.
+</p>
+
+<h2 id="ExpandoCollapsoTechnology">Expando-Collapso Technology</h2>
+
+<p>
+<img src="HelpImages/og6_toolpalette_expandoarrow.png" alt="The Tool Palette Expand Arrow" id="og6_toolpalette_expandoarrow" /> OmniGraffle 6 includes advanced Expando-Collapso Technology. Okay, it&#8217;s really just a button after the Pen tool, but you can use this to collapse the tool palette down to just a core set of tools, or click it&#8212;<em>Expando!</em>&#8212; to gain access to a bunch more tools. <em>Collapso</em> lets you save precious toolbar space for other buttons, and <em>Expando</em> gives you the whole enchilada.
+</p>
+
+<p>
+You can move the divider in the Drawing Tools preferences to change which tools are available in the palette&#8217;s collapsed state, or get rid of the Expando-Collapso button entirely.
+</p>
+
+<h2 id="TheDiagrammingTool">Rapidly Creating Structure with the Diagram Tool</h2>
+
+<p>
+<img src="HelpImages/og6_toolpalette_06_diagramtool.png" alt="The Diagram Tool" id="og6_toolpalette_06_diagramtool" /> The Diagram tool is for rapidly creating new objects on the Canvas. This tool is especially fun if you have <strong>Auto layout</strong> turned on (<strong>Canvas Inspectors &gt; Diagram Layout</strong>, and then make sure <strong>Auto layout</strong> is checked).
+</p>
+
+<p>
+With nothing selected, click any empty spot on the Canvas to create a new generic shape there and select it. Once you have a shape selected, try some of these combinations:
+</p>
+
+<ul>
+<li>Click any empty spot on the canvas to create a new shape connected to the original one.</li>
+<li>Hold <strong>Option</strong> to create a sibling (connected to the same parent as the selected shape) instead.</li>
+<li>Hold <strong>Shift</strong> to add an aunt (essentially reversing the connection line of the new object).</li>
+<li>Hold <strong>&#8984;</strong> to create a completely disconnected shape.</li>
+</ul>
+
+<figure>
+<img src="HelpImages/og6_diagramtool.png" alt="Having fun with the Diagram tool" id="og6_diagramtool" style="height:400px;" />
+</figure>
+
+<p>
+If you already have an object on the Canvas, first select it with the <strong>Selection Tool</strong> so that you can use it as a starting point for creating more connected shapes, and then switch to the <strong>Diagram Tool</strong> by pressing and holding the <strong>d</strong> key.
+</p>
+
+<p>
+Once you get the hang of the modifier keys, you can create really complex diagrams with just a few clicks.
+</p>
+
+<h2 id="TheStyleBrushTool">Replicating Styles with the Style Brush Tool</h2>
+
+<p>
+<img src="HelpImages/og6_toolpalette_07_stylebrushtool.png" alt="The Style Brush" id="og6_toolpalette_07_stylebrushtool" /> Use this tool to replicate styles. When you first open OmniGraffle, the Style Brush tool is empty, and its cursor has arrows showing that you can absorb a style. Select it and click any object on the canvas to absorb the object&#8217;s style into the brush. Once the brush contains a style, you can click any object to replace the object&#8217;s style with the style stored in the brush.
+</p>
+
+<p>
+The tool&#8217;s popup menu contains a list of styles that can be absorbed; select whichever ones you like, and the brush will only absorb or apply those styles. For example, if you only select Fill, you can apply a certain fill style to objects without affecting any of their other styles.
+</p>
+
+<figure>
+<img src="HelpImages/og6_toolpalette_07_stylebrushtool02.png" alt="Use the Brush Tools popup menu to select whihc object traits youd like to copy" id="og6_toolpalette_07_stylebrushtool02" />
+</figure>
+
+<p>
+To reset the contents of the brush, select <strong>Clear Contents</strong> from the Brush tool&#8217;s popup menu; you can then absorb a new style. You can also <strong>Option-click</strong> a different object to replace the brush&#8217;s contents.
+</p>
+
+<h2 id="TheRubberStampTool">Duplicating Objects with the Rubber Stamp Tool</h2>
+
+<p>
+<img src="HelpImages/og6_toolpalette_08_rubberstamptool.png" alt="The Rubber Stamp" id="og6_toolpalette_08_rubberstamptool" /> Use this tool to replicate objects. When you first open OmniGraffle, the Rubber Stamp tool is empty. Select it and click any object on the canvas to grab the object into the stamp. Once the stamp contains an object, each click on the canvas creates a new copy of the object.
+</p>
+
+<figure>
+<img src="HelpImages/og6_rubberstamp.png" alt="After selecting an object with the Rubber Stamp tool, youll notice that the pointer carries the shape of the copied object along with it." id="og6_rubberstamp" />
+</figure>
+
+<p>
+If you hold the <strong>Shift</strong> key down, the Rubber Stamp tool will align the soon-to-be-pasted object along the centerline (either horizontally or vertically) of the original or previously pasted copy.
+</p>
+
+<p>
+To reset the contents of the stamp, select <strong>Clear Contents</strong> from the tool&#8217;s popup menu; you can then grab a new object. You can also <strong>Option-click</strong> a different object to replace the stamp&#8217;s contents.
+</p>
+
+<h2 id="TheMagnetTool">Adding and Adjusting Connections with the Magnet Tool</h2>
+
+<p>
+<img src="HelpImages/og6_toolpalette_09_magnettool.png" alt="The Magnet Tool" id="og6_toolpalette_09_magnettool" /> Use this tool to add magnets to a shape or to edit a shape&#8217;s existing magnets. To view the available magnets for the objects on your Canvas, choose <strong>View &gt; Magnets</strong>.
+</p>
+
+<p>
+Magnets are special spots on a shape that attract connection lines. If there are no magnets on a shape, all lines connect to the shape&#8217;s center by default. If there is at least one magnet, each connected line is attracted to the nearest one. You can also connect lines directly to magnets, to make sure they stay connected to the same magnet regardless of how the shape is moved. 
+</p>
+
+<p>
+You can view the magnet presets in the <strong>Connections inspector</strong> (<strong>&#8984;&#8211;3</strong>). However, if you want to place magnets in very specific places on a shape, click the <strong>Magnet Tool</strong> and then click anywhere on the object.
+</p>
+
+<figure>
+<img src="HelpImages/og6_magnets_add.png" alt="Add a magnet and then use the smart guides to align their positions" id="og6_magnets_add" style="width:250px;" />
+</figure>
+
+<p>
+To change a magnet&#8217;s position on the object, <strong>click and drag</strong> an existing magnet to another location. If an object has more than one magnet, Smart Guides will appear so you can align the magnets as well. To delete a magnet, <strong>Shift-</strong> or <strong>Option-click</strong> on a magnet.
+</p>
+
+<figure>
+<img src="HelpImages/og6_magnets_delete.png" alt="Hold the Shift or Option key and then click on a magnet to remove it from the object" id="og6_magnets_delete" style="width:100px;" />
+</figure>
+
+<h2 id="TheZoomTool">Getting a Closer Look at the Canvas with the Zoom Tool</h2>
+
+<p>
+<img src="HelpImages/og6_toolpalette_10_zoomtool.png" alt="The Zoom Tool" id="og6_toolpalette_10_zoomtool" /> Use the Zoom tool to get a closer (or more distant) look at the Canvas. Click anywhere on the canvas to center on that point and double the zoom percentage. <strong>Option-click</strong> to zoom back out.
+</p>
+
+<figure>
+<img src="HelpImages/og6_zoomin_zoomout.png" alt="Use the Option key to zoom out" id="og6_zoomin_zoomout" style="height:100px;" />
+</figure>
+
+<p>
+Click and drag a box across the canvas to specify the rectangle you would like to zoom to; the shading shows the area that will be visible in the window when you let go. If you <strong>Option-drag</strong>, the rectangle is centered on the spot where you start dragging. While dragging, press and hold <strong>Shift</strong> to move the zoom selection area around instead of resizing it.
+</p>
+
+<p>
+<strong>Shift-click</strong> the zoom tool in the tool palette to return to 100 percent zoom, or <em>actual size</em>.
+</p>
+
+<p>
+You can always zoom to a specific percentage with the zoom menu in the lower-right of the canvas window.
+</p>
+
+<figure>
+<img src="HelpImages/og6_zoom_menu.png" alt="The zoom menu" id="og6_zoom_menu" style="height:200px;" />
+</figure>
+
+<p>
+If your Mac has a Multi-Touch&ndash;capable trackpad, you can use it to change the zoom level using the pinch gesture. To enable Multi-Touch, go to <strong>OmniGraffle &gt; Preferences &gt; General &gt; Multi-Touch</strong> and turn on <strong>Enable Multi-Touch trackpad gestures</strong>. Now you can pinch open to zoom in, or pinch close to zoom out. Multi-Touch zoom makes it much easier for you to zoom-in and -out on the objects on the Canvas.
+</p>
+
+<h2 id="TheHandTool">Moving the Canvas Around with the Hand Tool</h2>
+
+<p>
+<img src="HelpImages/og6_toolpalette_11_handtool.png" alt="The Hand Tool" id="og6_toolpalette_11_handtool" /> Use this tool to drag your view of the canvas around, to see part of the canvas that is out of sight.
+</p>
+
+<p>
+You&#8217;ll mostly use the Hand tool when you&#8217;re zoomed in on the canvas and want to move to a different location. For this, use the Hand tool&#8217;s quick access key, the <strong>Space Bar</strong>, to switch the mouse pointer to a hand, and then <strong>click and drag</strong> to move the canvas around.
+</p>
+
+<figure>
+<img src="HelpImages/og6_handtool_grab.png" alt="While hovering over the Canvas, press the Space Bar to quickly switch to the Hand tool so you can grab onto the canvas and move it around." id="og6_handtool_grab" style="height:100px;" />
+</figure>
+
+<p>
+As you drag, you&#8217;ll notice that the open hand changes to a clutched fist to indicate that you&#8217;re grabbing onto the Canvas.
+</p>
+
+<h2 id="TheActionBrowseTool">Activating Scripted Objects with the Action Browse Tool</h2>
+
+<p>
+<img src="HelpImages/og6_toolpalette_12_browsetool.png" alt="The Browse Tool" id="og6_toolpalette_12_browsetool" /> Use the Browse tool to work with interactive OmniGraffle documents.
+</p>
+
+<p>
+The secret here is that you assign actions to objects using the <strong>Action</strong> properties inspector (<strong>&#8984;&#8211;3</strong>), which is only available in OmniGraffle Pro. First create and select an object on the Canvas, then switch to the Action properties inspector. By default, an object <strong>Does Nothing</strong>, which means it just sits there on the canvas looking pretty. Other Actions you can bind to an object include:
+</p>
+
+<ul>
+<li><strong>Opens a URL</strong> &#8212; lets you assign a URL to open; when clicked, the page opens in the user&#8217;s default web browser.</li>
+<li><strong>Opens a File</strong> &#8212; lets you assign a file to open; when clicked, the file opens in the default app based on that file type&#8217;s preferences. You can also choose to open a synchronized file in an OmniPresence folder.</li>
+<li><strong>Runs a Script</strong> &#8212; runs an AppleScript when the object is clicked.</li>
+<li><strong>Jumps Elsewhere</strong> &#8212; lets you jump to another Canvas in the OmniGraffle project, highlight other objects, or zoom in or out on the canvas.</li>
+<li><strong>Shows or Hides Layers</strong> &#8212; lets you show or hide specific layers in your project.</li>
+</ul>
+
+<p>
+The Actions you assign to an object make it easy for you to create highly interactive presentations and even UI mockups for that killer iOS app you&#8217;re designing.
+</p>
+
+<p>
+For more details, see <a href="index09_theinspectors.html#TheActionInspector" class="xref"><em>Making Objects Interactive with the Action Inspector</em></a>.
+</p>
+
+<p class="note">
+<strong>Note</strong><br />
+While the Actions inspector is only available in OmniGraffle Pro, OmniGraffle Standard users can still use the Action Browse tool to interact with files created with OmniGraffle Pro.
+</p>
+</div>
+
+
+<div id="helpfooter">
+<p>
+<a href="index.html">Home</a> <span class="footer-right"><a href="index07_thesidebar.html">The Sidebar &#x232a;</a></span>
+</p>
+</div>
+
+
+</body>
+</html>
