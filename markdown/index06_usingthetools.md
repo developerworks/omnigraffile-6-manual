@@ -51,7 +51,7 @@ If you select a table, the edge handles look like little grids. You can drag the
 
 ![The edge handles on a table object look like little grids, while the corner handles can be dragged to add or remove columns and rows](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_resizehandles_table.png)
 
-**Note**\
+**Note**
  If you have Smart Guides enabled, they appear as you drag to help you size objects equally. Hold **⌘** after you start dragging to temporarily enable or disable Smart Guides.
 
 ### Editing Points {#EditingPoints}
