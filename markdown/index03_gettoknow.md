@@ -1,4 +1,4 @@
-# Getting to Know OmniGraffle {#GettingToKnowOmniGraffle}
+# 了解 OmniGraffle {#GettingToKnowOmniGraffle}
 
 Sure, it’s still the same great chart-drawing, prototyping, wireframing app you’ve grown to love and adore, but we’ve pulled out the stops with OmniGraffle 6. The biggest change you’ll notice is a new unified user interface, so let’s dive in with a quick overview.
 
@@ -15,4 +15,4 @@ This self-contained approach to the interface makes it even easier for you to ju
 
 Now that you have a better understanding of how OmniGraffle is organized visually, let’s dive in deeper and look at everything OmniGraffle has to offer. If you haven’t launched OmniGraffle yet, now might be a good time to do that.
 
-[Home](index.html) [The Resource Browser 〉](index04_resourcebrowser.html)
+[主页](index.html) [资源浏览器 〉](index04_resourcebrowser.html)
