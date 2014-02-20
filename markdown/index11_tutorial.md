@@ -309,4 +309,4 @@ In the end, your project should look similar to the following:
 
 Take some time now to experiment with OmniGraffle a little more. The more you use OmniGraffle, the more comfortable you’ll become with all of its abilities. Don’t worry about “messing” anything up; just remember that you can always hit **⌘-Z** to undo any recent changes you’ve made.
 
-[Home](index.html) [Reference 〉](index12_reference.html)
+[主页](index.html) [Reference 〉](index12_reference.html)
