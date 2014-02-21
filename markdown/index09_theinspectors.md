@@ -166,11 +166,11 @@ Use this inspector to line up and space out objects uniformly.
 
 -   If Align to canvas is selected, the align and spread buttons consider the canvas edges as “objects” when arranging the selected objects. This makes it so that you can align objects to a canvas edge, or space objects evenly between the canvas edges.
 
-## Type Inspectors {#TypeInspectors}
+## 类型查看器 {#TypeInspectors}
 
 Manage the typography of selected objects.
 
-### The Font Inspector {#TheFontInspector}
+### 字体查看器 {#TheFontInspector}
 
 Use this inspector to modify the font properties of the selected objects, including style, size, and color.
 
@@ -192,32 +192,34 @@ Use this inspector to control the positioning and appearance of the selected sha
 
 -   On the right side are controls for setting the Kerning (automatic character spacing for ideal balance), Tracking (manual character spacing), Leading (distance between lines), and Margins (distance between text and the edges of the text area). These controls become enabled or disabled depending on other controls in the inspector, or the amount of text in the object.
 
-### The Offsets Inspector (**Pro**) {#TheOffsetInspector}
+### Offset 查看器 (**Pro**) {#TheOffsetInspector}
 
-This inspector contains the Text Offset and Text Rotation controls.
+该查看器包含文本偏移和文本旋转控制.
 
 ![The Offset Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_11_offsetsinspector.png)
 
 By default, the **Use default offsets** option is turned on. If you uncheck this option, you can adjust the text’s position using the four input fields above; these are:
 
-Text Offset from Left
+默认情况 **Use default offsets** 选项是选中的. 如果你要调整文本的定位, 反选此选项,并通过四个输入字段调整; 它们是:
+
+相对于左侧的文本偏移
 :   This adjusts the text’s position from the left edge of the object.
-Text Offset from Top
+相对于顶部的文本偏移
 :   This adjusts the text’s position from the top edge fo the object.
-Width:
+宽度:
 :   This adjusts the text box’s width.
-Height
+高度
 :   This adjusts the text box’s height.
 
 Use the text’s rotation value to determine how the text appears when you rotate the object. By default, **Relative rotation** is turned on, which means that the text within an object will maintain its relative position when an object is rotated. Turn this off to set the text’s rotation independent of its bounding object. You can either enter a rotation value in the field or drag the circular control to rotate the text.
 
-## Properties Inspectors (**Pro**) {#PropertiesInspectors}
+## 属性查看器 (Properties Inspectors) (**Pro**) {#PropertiesInspectors}
 
-Use the **Properties inspectors**, available only in OmniGraffle Pro, to manage the advanced properties of selected objects.
+使用 **Properties inspectors**, 仅在OmniGraffle专业版可用, 管理被选择对象的高级属性.
 
 ### Changing the Way Objects Connect with the Connections Inspector (**Pro**) {#TheConnectionsInspector}
 
-Use this inspector to control how objects connect to one another.
+使用该查看器控制对象之间如何连接.
 
 ![The Connections Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_12_connectionsinspector.png)
 
@@ -227,7 +229,7 @@ Use this inspector to control how objects connect to one another.
 
 -   The pop-up menu contains a bunch of magnet presets you can choose for the selected shape object. Magnets are points on a shape object that attract connection lines. You can choose to have no magnets, magnets placed according to cardinal directions (North, South, East, and West), magnets on each vertex (corner), or a certain number of magnets on each side of the shape.
 
-**Note**\
+**Note**
  The Magnet options can be found in the **Edit** menu in the standard edition of OmniGraffle 6.
 
 -   If you select some number of magnets per side, then hold Shift while opening the pop-up menu and selecting another number, the two numbers are added together; you can get up to 10 magnets per side in this way.
@@ -288,13 +290,13 @@ Use this inspector to change the size of the canvas, how the canvas fits onto pr
 
 -   (**Pro**) Set the desired representation of one “point” as displayed on screen at 100% zoom to best fit your printing needs or screen pixel density (one Apple point is the default).
 
-### The Canvas Fill Inspector {#TheCanvasFillInspector}
+### 画布填充查看器 (Canvas Fill Inspector ){#TheCanvasFillInspector}
 
 Select a canvas by clicking its preview in the sidebar to edit its background fill properties. As with the Object Fill inspector you can choose from nine fill styles and edit various parameters of each.
 
 ![The Canvas Fill Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_16_canvasfillinspector.png)
 
-### The Background Image Inspector {#TheBackgroundImageInspector}
+### 背景图像查看器 (Background Image Inspector) {#TheBackgroundImageInspector}
 
 You can also add an image to a canvas. Just click the canvas in the sidebar and then use the Background Image inspector to place an image similarly to the Object Image inspector.
 
