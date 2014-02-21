@@ -304,13 +304,13 @@ You can also add an image to a canvas. Just click the canvas in the sidebar and 
 
 Use the controls to the left of the Mask button to Manually Size, Stretch, or Tile the image you’ve placed. Use the grid of four fields to position the image from left, from top, sized horizontally, or sized vertically. Use the slider at the bottom of the inspector to change the image’s opacity.
 
-### The Units Inspector {#TheUnitsInspector}
+### 长度单位查看器 (Units Inspector) {#TheUnitsInspector}
 
 Use the **Units inspector** to determine the unit of measure to use for the canvas and its rulers, as well as to set the scale and origin points.
 
 ![The Unit Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_18_unitsinspector.png)
 
-#### Units {#Units}
+#### 单位 (Units) {#Units}
 
 The **Units** pop-up menu is where you set the type of measurement units you’d like to use for the current canvas. All of OmniGraffle’s supported units are listed, with their standard abbreviations.
 
@@ -332,7 +332,7 @@ If you already have a scale set up and you conver directly to a different one, t
 
 By default, the very upper-left corner of a canvas is its origin (that is, the point where the rulers’ measurements start from, where the coordinates are 0,0). To change the origin, enter values in the two Origin fields. (You can also drag the origin from the corner where the rulers meet.) The coordinates in the Geometry inspector are based on this origin point.
 
-### Setting up a Grid with the Grid Inspector {#TheGridInspector}
+### 用网格查看器设置一个网格 (Setting up a Grid with the Grid Inspector) {#TheGridInspector}
 
 Use this inspector to set up a grid on the canvas, so you can keep objects lined up nicely.
 
@@ -359,7 +359,7 @@ The checkboxes beneath the Major and Minor Grid spacing fields provide additiona
 **Tip**\
  Choose **Arrange \> Grid \> Align Objects to Grid** (**Option-⌘-[**) to make all of the selected objects line up to the grid right away.
 
-### The Canvas Data Inspector (**Pro**) {#TheCanvasDataInspector}
+### 画布数据查看器 (Canvas Data Inspector) (**专业版**) {#TheCanvasDataInspector}
 
 You can also edit the note and other metadata of a canvas itself. Just click the canvas in the sidebar and then use the Canvas Data inspector to add metadata for the canvas.
 
@@ -367,7 +367,7 @@ You can also edit the note and other metadata of a canvas itself. Just click the
 
 As with the data added using the Properties Note inspector, this information is used primarily for indexing and doesn’t affect the appearance of your OmniGraffle document in any way.
 
-### Automatically Arranging Objects with the Diagram Layout Inspector {#TheDiagramLayoutInspector}
+### 用图表布局查看器自动排列对象 (Automatically Arranging Objects with the Diagram Layout Inspector) {#TheDiagramLayoutInspector}
 
 Use this inspector to automatically lay out shapes based on the logical relationships established by the connection lines between them.
 
@@ -428,12 +428,13 @@ In some technical cases, it might be desirable to use one type or the other; if 
 
 Normally OmniGraffle documents are “property list”–based text files. If you turn on **Compress on disk**, your file is instead saved in a binary format that takes up less space on the disk but whose innards can’t be read by scripts or text editors. If you don’t need to open an OmniGraffle document with a text editor, just go ahead and compress your files. This won’t hurt anything; it just makes the filesize a wee bit smaller.
 
-### The Margins Inspector {#TheMarginsInspector}
+### 边距查看器 (Margins Inspector) {#TheMarginsInspector}
 
 Here you can specify your own page margins, or choose **Use printer margins** to default to the margins defined by your printer driver (or by any custom settings you’ve made in **File \> Page Setup**).
 
 ![The Margins Inspector](https://raw.github.com/developerworks/omnigraffile-6-manual/master/assets/images/og6_inspectors_23_marginsinspector.png)
 
+### 在数据查看器中存储文档信息 {#TheDataInspector}
 ### Storing Information About your Document in the Data Inspector {#TheDataInspector}
 
 The Document Data inspector has fields for lots of information about your document, in case you care to keep track of such things. The available fields are Subject, Copyright, Version, Description, and Comments. The pop-up menu includes options for adding information about the document’s Authors, Organizations, Languages, Keywords, and Projects.
@@ -442,6 +443,7 @@ The Document Data inspector has fields for lots of information about your docume
 
 All of this data is made available to OS X’s Spotlight searching feature, to help you find the diagram you’re looking for.
 
+## 使用模具存储和共享共用对象 {#UsingStencils}
 ## Using Stencils to Keep and Share Commonly Used Objects {#UsingStencils}
 
 A stencil is a set of useful objects that you can drag into your diagrams. To see the available stencils—or any you’ve added—choose **View \> Show Inspector \> Stencils Library** (**⌘–6**), or click the rightmost button at the top of the Inspector sidebar.
